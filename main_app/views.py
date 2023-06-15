@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
+
 def home_page(request):
     """
     When this view is called it takes the request and return the

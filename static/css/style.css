@@ -1,0 +1,17 @@
+h2 {
+    height: 200px;
+    background-color: bisque;
+    color: blue;
+}
+
+h1 {
+    height: 200px;
+    background-color: rgb(203, 255, 196);
+    color: rgb(255, 102, 0);
+}
+
+h3 {
+    height: 200px;
+    background-color: rgb(233, 214, 249);
+    color: rgb(255, 0, 0);
+}
