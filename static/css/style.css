@@ -1,3 +1,24 @@
+/* Frontend Developers here you will write all the code for vanilla CSS.
+Delete the placeholders below and start coding.
+Please write the css code for each page between comment tags, use unique and meaningful class names or id names. 
+Godd Luck! */
+
+/* --------------------------------------------------- General styles */
+/* General code like body style, google fonts etc */
+
+/* --------------------------------------------------- Home page styles */
+
+
+/* --------------------------------------------------- History page styles */
+
+
+/* --------------------------------------------------- Resouces page styles */
+
+
+/* --------------------------------------------------- Contact page styles */
+
+
+/* Delete the code below */
 h2 {
     height: 200px;
     background-color: bisque;
@@ -14,4 +35,11 @@ h3 {
     height: 200px;
     background-color: rgb(233, 214, 249);
     color: rgb(255, 0, 0);
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
 }
