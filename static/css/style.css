@@ -7,7 +7,9 @@ Godd Luck! */
 /* General code like body style, google fonts etc */
 
 /* --------------------------------------------------- Home page styles */
-
+p {
+    color: aqua;
+}
 
 /* --------------------------------------------------- History page styles */
 
