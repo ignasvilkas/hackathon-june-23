@@ -1,0 +1,61 @@
+{% load static %}
+<!-- Frontend Developers here you will write all the code for Header and footer.
+Place your code between the respective comment tags.
+Godd Luck! -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="HopeForCancer - is an informative blog web app designed to raise awareness about cancer, its prevention, early detection, and treatments.">
+    <meta name="keywords"
+        content="HopeForCancer, Cancer, Raise awareness, Prevention, Early detection, Treatments, Blog, Stories, Support, Comunity, Health">
+    <!-- google fonts link -->
+
+    <!-- materialize css link -->
+
+    <!-- font awesome link -->
+
+    <!-- hover.css link -->
+
+    <!-- favicon link -->
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Spectrumind | {% block title %}{% endblock title %}</title>
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <!-- Navbar start -->
+        <h2>Here will be placed the header & navbar / delete me to work on it.</h2>
+        <a href="{% url 'home_page' %}">Home</a>
+        <a href="{% url 'history_page' %}">History</a>
+        <a href="{% url 'resources_page' %}">Resources</a>
+        <a href="{% url 'contact_page' %}">Contact</a>
+        <!-- Navbar end -->
+    </header>
+    <!-- Header end -->
+
+    <!-- Main start -->
+    <main>
+        {% block content %}
+        <!-- content goes here to extend base.html-->
+        {% endblock content %}
+    </main>
+    <!-- Main end -->
+
+    <!-- Footer start -->
+    <h3>If you see me i am the footer on base.html. Here will place footer content. Can delete me to work here :) </h3>
+    <!-- Footer end -->
+
+    <!-- javascript link -->
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>

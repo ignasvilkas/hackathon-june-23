@@ -30,7 +30,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-edmirdemaj-hackathonjun-8j2iv3dpm5j.ws-eu99.gitpod.io', 'spectrumind-9674c855da30.herokuapp.com']  # noqa: E501
+ALLOWED_HOSTS = ['8000-edmirdemaj-hackathonjun-trqwgorzsmc.ws-eu99.gitpod.io', 'spectrumind-9674c855da30.herokuapp.com', 'localhost']  # noqa: E501
+
+CSRF_COOKIE_SECURE = False
 
 
 # Application definition
