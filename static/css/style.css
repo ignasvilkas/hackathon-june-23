@@ -7,6 +7,12 @@ Godd Luck! */
 /* General code like body style, google fonts etc */
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
 }
 
 /* --------------------------------------------------- Home page styles */
@@ -16,6 +22,7 @@ Godd Luck! */
     font-family: 'Amatic SC', cursive;
     margin-left: 35%;
 }
+
 .NavBar {
     background-color: #FF8A7F;
     box-shadow: none !important;
@@ -38,6 +45,7 @@ nav {
     height: 80vh;
     margin: 0;
 }
+
 .landing_page_container p {
     font-family: 'Amatic SC', cursive;
     font-size: 90px;
@@ -49,7 +57,7 @@ nav {
     background-color: green;
     /* height: 200px;
     width: 200px; */
-    
+
 }
 
 .circle {
@@ -61,10 +69,45 @@ nav {
 }
 
 /* --------------------------------------------------- History page styles */
+#history-main-heading {
+    font-size: 6rem;
+}
 
+.fa-heart {
+    color: rgb(246, 128, 146);
+}
+
+.L {
+    color: #b41a02;
+    font-weight: 700;
+}
+
+.G {
+    color: #b47602;
+    font-weight: 700;
+}
+
+.B {
+    color: #b7ba00;
+    font-weight: 700;
+}
+
+.T {
+    color: #009a0a;
+    font-weight: 700;
+}
+
+.Q {
+    color: #00579a;
+    font-weight: 700;
+}
+
+.plus {
+    color: #33009a;
+    font-weight: 700;
+}
 
 /* --------------------------------------------------- Resouces page styles */
 
 
 /* --------------------------------------------------- Contact page styles */
-
