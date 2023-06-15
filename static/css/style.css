@@ -27,8 +27,8 @@ h2 {
 
 h1 {
     height: 200px;
-    background-color: rgb(203, 255, 196);
-    color: rgb(255, 102, 0);
+    background-color: rgb(153, 103, 2);
+    color: rgb(187, 239, 252);
 }
 
 h3 {
@@ -42,4 +42,22 @@ h3 {
     background-color: blue;
     color: white;
     cursor: pointer;
+}
+
+#history {
+    height: 200px;
+    background-color: rgb(157, 26, 0);
+    color: rgb(251, 251, 251);
+}
+
+#resources {
+    height: 200px;
+    background-color: rgb(17, 95, 0);
+    color: rgb(251, 251, 251);
+}
+
+#contact {
+    height: 200px;
+    background-color: rgb(221, 1, 255);
+    color: rgb(251, 251, 251);
 }
