@@ -5,10 +5,59 @@ Godd Luck! */
 
 /* --------------------------------------------------- General styles */
 /* General code like body style, google fonts etc */
+* {
+    margin: 0;
+}
 
 /* --------------------------------------------------- Home page styles */
+
+
 .team_name {
     font-family: 'Amatic SC', cursive;
+    margin-left: 35%;
+}
+.NavBar {
+    background-color: #FF8A7F;
+    box-shadow: none !important;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
+
+.logo {
+    background-color: transparent !important;
+}
+
+nav {
+    /* box-shadow: none !important; */
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.landing_page_container {
+    background-color: #FF5252;
+    height: 80vh;
+    margin: 0;
+}
+.landing_page_container p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    width: 60%;
+    margin-left: 6%;
+}
+
+.circle_images {
+    background-color: green;
+    /* height: 200px;
+    width: 200px; */
+    
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
 }
 
 /* --------------------------------------------------- History page styles */
