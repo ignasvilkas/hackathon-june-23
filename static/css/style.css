@@ -7,8 +7,8 @@ Godd Luck! */
 /* General code like body style, google fonts etc */
 
 /* --------------------------------------------------- Home page styles */
-p {
-    color: aqua;
+.team_name {
+    font-family: 'Amatic SC', cursive;
 }
 
 /* --------------------------------------------------- History page styles */
@@ -19,47 +19,3 @@ p {
 
 /* --------------------------------------------------- Contact page styles */
 
-
-/* Delete the code below */
-h2 {
-    height: 200px;
-    background-color: bisque;
-    color: blue;
-}
-
-h1 {
-    height: 200px;
-    background-color: rgb(153, 103, 2);
-    color: rgb(187, 239, 252);
-}
-
-h3 {
-    height: 200px;
-    background-color: rgb(233, 214, 249);
-    color: rgb(255, 0, 0);
-}
-
-.my-button {
-    padding: 10px 20px;
-    background-color: blue;
-    color: white;
-    cursor: pointer;
-}
-
-#history {
-    height: 200px;
-    background-color: rgb(157, 26, 0);
-    color: rgb(251, 251, 251);
-}
-
-#resources {
-    height: 200px;
-    background-color: rgb(17, 95, 0);
-    color: rgb(251, 251, 251);
-}
-
-#contact {
-    height: 200px;
-    background-color: rgb(221, 1, 255);
-    color: rgb(251, 251, 251);
-}

@@ -4,59 +4,105 @@ Place your code between the respective comment tags.
 Godd Luck! -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="HopeForCancer - is an informative blog web app designed to raise awareness about cancer, its prevention, early detection, and treatments.">
-    <meta name="keywords"
-        content="HopeForCancer, Cancer, Raise awareness, Prevention, Early detection, Treatments, Blog, Stories, Support, Comunity, Health">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Spectrumind - is an informative web app designed to raise awareness about Mental Health in the LGBT community, including resources to get help."
+    />
+    <meta
+      name="keywords"
+      content="Spectrumind, LGBT Mental health, LGBTQ+ Mental Health, LGBTQ+ Support, Mental Health Resources, LGBT Youth Mental Health"
+    />
     <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- materialize css link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
     <!-- font awesome link -->
 
     <!-- hover.css link -->
 
     <!-- favicon link -->
-    <link rel="icon" href="{% static 'favicon.ico' %}">
+    <link rel="icon" href="{% static 'favicon.ico' %}" />
 
     <!-- css link -->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <title>Spectrumind | {% block title %}{% endblock title %}</title>
-</head>
+  </head>
 
-<body>
-    <!-- Header start -->
-    <header>
-        <!-- Navbar start -->
-        <h2>Here will be placed the header & navbar / delete me to work on it.</h2>
-        <a href="{% url 'home_page' %}">Home</a>
-        <a href="{% url 'history_page' %}">History</a>
-        <a href="{% url 'resources_page' %}">Resources</a>
-        <a href="{% url 'contact_page' %}">Contact</a>
-        <!-- Navbar end -->
-    </header>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper red accent-1">
+          <a href="#" class="brand-logo team_name">Spectrumind</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down m5">
+            <li><a href="{% url 'home_page' %}">Home</a></li>
+            <li><a href="{% url 'history_page' %}">History</a></li>
+            <li><a href="{% url 'resources_page' %}">Resources</a></li>
+            <li><a href="{% url 'contact_page' %}">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <!-- Header end -->
 
     <!-- Main start -->
     <main>
-        {% block content %}
-        <!-- content goes here to extend base.html-->
-        {% endblock content %}
+      {% block content %}
+      <!-- content goes here to extend base.html-->
+      {% endblock content %}
     </main>
     <!-- Main end -->
 
     <!-- Footer start -->
-    <h3>If you see me i am the footer on base.html. Here will place footer content. Can delete me to work here :) </h3>
+    <!-- Define the footer -->
+    <footer class="page-footer blue lighten-1">
+      <div class="container">
+        <div class="row">
+          <h5 class="white-text">Meet Our Team!</h5>
+          <div class="col l4 offset-l0 s12">
+            <ul class="team-members">
+              <li>
+                <a class="grey-text text-lighten-3" href="#!">Edmir Demaj</a>
+              </li>
+              <li><a class="grey-text text-lighten-3" href="#!">Ignas P</a></li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!">Kim Bergstrom</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!">Mark Young</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!">Jody Murray</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col l8 s12 team-name">
+            <p class="text-light-blue-lighten-1 center-align">
+              Binary Unicorns
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">© 2023 Copyright Text</div>
+      </div>
+    </footer>
     <!-- Footer end -->
 
     <!-- javascript link -->
     <script src="{% static 'js/script.js' %}"></script>
-</body>
-
+  </body>
 </html>
