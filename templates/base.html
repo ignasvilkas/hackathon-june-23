@@ -46,7 +46,13 @@ Godd Luck! -->
     <div class="navbar-fixed NavBar">
       <nav>
         <div class="nav-wrapper red accent-2">
-          <a href="#" class="brand-logo team_name">Spectrumind</a>
+          <img
+            src="{% static 'media/logo.png'%}"
+            class="circle responsive-img logo"
+            alt=""
+          />
+
+          <a href="#" class="brand-logo team_name center-align">Spectrumind</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down m5">
             <li><a href="{% url 'home_page' %}">Home</a></li>
             <li><a href="{% url 'history_page' %}">History</a></li>

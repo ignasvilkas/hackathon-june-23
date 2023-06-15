@@ -14,13 +14,17 @@ Godd Luck! */
 
 .team_name {
     font-family: 'Amatic SC', cursive;
-    margin-left: 5%;
+    margin-left: 35%;
 }
 .NavBar {
     background-color: #FF8A7F;
     box-shadow: none !important;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
+}
+
+.logo {
+    background-color: transparent !important;
 }
 
 nav {
