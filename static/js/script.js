@@ -11,3 +11,4 @@ function changeButton() {
     // Change text
     button.innerHTML = 'Javascript works :)';
 }
+  

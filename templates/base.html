@@ -20,27 +20,24 @@ Godd Luck! -->
     rel="stylesheet" />
   <!-- materialize css link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-
   <!-- font awesome link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
-  <!-- hover.css link -->
-
+  <!-- animation library link -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <!-- favicon link -->
   <link rel="icon" href="{% static 'favicon.ico' %}" />
-
   <!-- css link -->
   <link rel="stylesheet" href="{% static 'css/style.css' %}" />
   <title>Spectrumind | {% block title %}{% endblock title %}</title>
 </head>
 
 <body>
-  <div class="navbar-fixed NavBar">
+  <div class="navbar-fixed navbar">
     <nav>
       <div class="nav-wrapper red accent-2">
-        <img src="{% static 'media/logo.png'%}" class="circle responsive-img logo" alt="" />
+        <img src="{% static 'media/logo.png'%}" class="circle responsive-img logo" alt="LOGO" />
 
-        <a href="#" class="brand-logo team_name center-align">Spectrumind</a>
+        <a href="{% url 'home_page' %}" class="brand-logo team_name center-align">Spectrumind</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down m5">
           <li><a href="{% url 'home_page' %}">Home</a></li>
           <li><a href="{% url 'history_page' %}">History</a></li>
@@ -98,6 +95,11 @@ Godd Luck! -->
 
   <!-- javascript link -->
   <script src="{% static 'js/script.js' %}"></script>
+  <!-- animation link -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
