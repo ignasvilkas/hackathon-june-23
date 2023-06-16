@@ -61,7 +61,7 @@ nav {
   height: 5rem;
 }
 
-div.nav-wrapper.red.accent-2 > * {
+div.nav-wrapper.red.accent-2>* {
   padding-top: 1rem;
 }
 
@@ -203,6 +203,7 @@ div.nav-wrapper.red.accent-2 > * {
   margin-left: -25%;
   opacity: 0.8;
 }
+
 .text-box p {
   font-size: 30px;
   width: 90%;
@@ -344,15 +345,13 @@ footer {
   margin: 1rem 0;
   height: 30px;
   border: none;
-  background: linear-gradient(
-    to right,
-    #ff0018,
-    #ffa52c,
-    #ffff41,
-    #008018,
-    #0000f9,
-    #86007d
-  );
+  background: linear-gradient(to right,
+      #ff0018,
+      #ffa52c,
+      #ffff41,
+      #008018,
+      #0000f9,
+      #86007d);
 }
 
 .rainbow {
@@ -360,5 +359,10 @@ footer {
 }
 
 /* --------------------------------------------------- Resouces page styles */
+.hero-image {
+  width: 400px;
+  height: 400px;
+}
+
 
 /* --------------------------------------------------- Contact page styles */
