@@ -41,6 +41,7 @@ body {
 
 .logo {
     background-color: transparent !important;
+    margin-left: 1rem;
 }
 
 nav {
@@ -52,6 +53,9 @@ div.nav-wrapper.red.accent-2>* {
     padding-top: 1rem;
 }
 
+#nav-mobile {
+    padding-right: 1rem;
+}
 
 #nav-mobile li a {
     font-size: 1.3rem;
@@ -155,6 +159,10 @@ footer {
     height: 30px;
     border: none;
     background: linear-gradient(to right, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D);
+}
+
+.rainbow {
+    color: #33009a;
 }
 
 /* --------------------------------------------------- Resouces page styles */
