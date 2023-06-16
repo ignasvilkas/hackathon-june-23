@@ -28,11 +28,11 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-edmirdemaj-hackathonjun-trqwgorzsmc.ws-eu99.gitpod.io', 'spectrumind-9674c855da30.herokuapp.com', '*']  # noqa: E501
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-CSRF_COOKIE_SECURE = False
+ALLOWED_HOSTS = ['spectrumind-9674c855da30.herokuapp.com', '*']
 
 
 # Application definition
