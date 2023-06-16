@@ -27,6 +27,8 @@ body {
 }
 
 /* --------------------------------------------------- Home page styles */
+
+/* Navbar css */
 .team_name {
   font-family: "Amatic SC", cursive;
   margin-left: 35%;
@@ -64,6 +66,8 @@ div.nav-wrapper.red.accent-2 > * {
   font-size: 1.3rem;
 }
 
+/* Homepage content css */
+
 .landing_page_container {
   background-color: #ff5252;
   height: 80vh;
@@ -99,6 +103,8 @@ div.nav-wrapper.red.accent-2 > * {
   object-fit: cover;
 }
 
+/* Stories of pride home page css */
+
 .card {
   width: 50%;
   height: 40%;
@@ -109,8 +115,8 @@ div.nav-wrapper.red.accent-2 > * {
 }
 
 .card p {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
 }
 
 .card .row {
@@ -131,34 +137,72 @@ div.nav-wrapper.red.accent-2 > * {
   margin-bottom: 10px;
 }
 
+/* We're here for you section css */
+
 .third_section {
-    margin-top: -8%;
-    margin-bottom: 5%;
+  margin-top: -8%;
+  margin-bottom: 5%;
 }
 
 .third_section h1 {
-    font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .third_section h3 {
-    font-weight: 900;
-    font-style: italic;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .third_section p {
-    font-size: 35px;
-    width: 50%;
-    margin-top: 3%;
-    margin-left: 24%;
-    font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 24%;
+  font-family: "Josefin Sans", sans-serif;
 }
+
+/* Reach out section css */
+
+.text-box {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: purple;
+  color: #fafafa;
+  border-radius: 15%;
+  width: 120%;
+  height: 100%;
+  padding: 20px;
+  margin-left: -25%;
+}
+.text-box p {
+  font-size: 30px;
+  width: 90%;
+  margin-left: 60px;
+  padding: 5%;
+}
+
+.help_section img {
+  width: 90%;
+  height: 90%;
+  border-radius: 10%;
+  margin-top: 40%;
+  margin-left: 5%;
+  position: relative;
+  z-index: 1;
+}
+
+.resources_button a {
+    font-size: 40px;
+    padding: 3%;
+    height: auto;
+    font-family: "Amatic SC", cursive;
+}
+
+/* footer css */
 
 footer {
   min-height: 15rem;
   margin-top: auto;
 }
-
-
 
 /* --------------------------------------------------- History page styles */
 #history-main-heading {
