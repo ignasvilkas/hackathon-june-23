@@ -359,7 +359,7 @@ footer {
 }
 
 /* --------------------------------------------------- Resouces page styles */
-#resources-h1 {
+.resources-h {
   text-align: center;
   color: #010b13;
 }
