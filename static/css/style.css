@@ -34,6 +34,13 @@ body {
   margin-left: 35%;
 }
 
+.team_name:hover,
+.navbar a:hover {
+  transform: scale(1.1);
+  transition: 1.2s;
+  border-radius: 10px;
+}
+
 .navbar {
   background-color: #ff8a7f;
   box-shadow: none !important;
@@ -128,7 +135,7 @@ div.nav-wrapper.red.accent-2 > * {
   background-color: rgb(194, 223, 232);
   margin-left: 25%;
   margin-bottom: 10%;
-  margin-top: -10px;
+  margin-top: -2px;
 }
 
 .card p {
@@ -152,6 +159,11 @@ div.nav-wrapper.red.accent-2 > * {
   font-size: 30px;
   width: 33%;
   margin-bottom: 10px;
+}
+
+.history_button a:hover {
+  transform: scale(1.1);
+  transition: 1.1s;
 }
 
 /* We're here for you section css */
@@ -186,9 +198,10 @@ div.nav-wrapper.red.accent-2 > * {
   color: #fafafa;
   border-radius: 15%;
   width: 120%;
-  height: 100%;
+  height: 60%;
   padding: 20px;
   margin-left: -25%;
+  opacity: 0.8;
 }
 .text-box p {
   font-size: 30px;
@@ -214,6 +227,11 @@ div.nav-wrapper.red.accent-2 > * {
   font-family: "Amatic SC", cursive;
 }
 
+.resources_button a:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 /* footer css */
 
 footer {
@@ -224,21 +242,20 @@ footer {
 .social_icons {
   height: auto;
   color: #114069;
-  margin-left: 50%;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .member {
-  font-size: 35px;
+  font-size: 30px;
+  display: flex;
   align-items: center;
-  margin-left: 20%;
-  font-weight: 700;
+  margin-bottom: 10px;
+  transition: transform 1.3s;
 }
 
 .member:hover {
-  transform: scale(1.4);
-  transition: 1.3s;
+  transform: scale(1.2);
 }
 
 .member a {
@@ -249,12 +266,15 @@ footer {
 }
 
 .team-name p {
-  margin-left: 50%;
+  margin-left: 140%;
+  position: relative;
   font-size: 30px;
+  width: 30%;
 }
 
 .team-name p:hover {
   transform: scale(1.1);
+  transition: 1.1s;
 }
 
 /* --------------------------------------------------- History page styles */
