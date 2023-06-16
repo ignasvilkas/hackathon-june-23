@@ -373,16 +373,11 @@ footer {
 }
 
 .resources-img {
-  width: 100%;
   height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
   margin-top: 70px;
-}
-
-.resources-items {
-  
 }
 
 /* --------------------------------------------------- Contact page styles */
