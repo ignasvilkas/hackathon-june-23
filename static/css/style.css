@@ -76,15 +76,12 @@ div.nav-wrapper.red.accent-2 > * {
   width: 120%;
   margin-left: 6%;
   padding-top: 5%;
+  color: #fafafa;
 }
 
 .circle_images {
-  /* display: flex;
-  justify-content: flex-end;
-  align-items: flex-end; */
   width: 300px !important;
   height: 300px;
-  
   border-radius: 50%;
   position: relative;
   top: -250px;
@@ -92,23 +89,47 @@ div.nav-wrapper.red.accent-2 > * {
 }
 
 .circle_1 {
-    margin-right: -60px; 
-    object-fit: cover;
+  margin-right: -60px;
+  object-fit: cover;
 }
 
 .circle_2 {
-    margin-left: -20px;
-    margin-top: -60px;
-    object-fit: cover;
+  margin-left: -20px;
+  margin-top: -60px;
+  object-fit: cover;
 }
 
-/* .circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    
-    
-} */
+.card {
+  width: 50%;
+  height: 40%;
+  background-color: rgb(194, 223, 232);
+  margin-left: 25%;
+  margin-bottom: 10%;
+  margin-top: -10px;
+}
+
+.card p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+}
+
+.card .row {
+  margin-top: 30%;
+}
+
+.card h1 {
+  margin-top: 20%;
+}
+
+.history_button {
+  padding: 10px;
+}
+
+.history_button a {
+  font-size: 30px;
+  width: 33%;
+  margin-bottom: 10px;
+}
 
 footer {
   min-height: 15rem;
