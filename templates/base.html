@@ -46,13 +46,20 @@ Godd Luck! -->
   </head>
 
   <body>
-    
     <div class="navbar-fixed navbar">
       <nav>
         <div class="nav-wrapper red accent-2">
-          <img src="{% static 'media/logo.png'%}" class="circle responsive-img logo hide-on-med-and-down" alt="LOGO" />
-          <a href="{% url 'home_page' %}" class="brand-logo team_name center-align left">Spectrumind</a>
-      
+          <img
+            src="{% static 'media/logo.png'%}"
+            class="circle responsive-img logo hide-on-med-and-down"
+            alt="LOGO"
+          />
+          <a
+            href="{% url 'home_page' %}"
+            class="brand-logo team_name center-align left"
+            >Spectrumind</a
+          >
+
           <!-- Navbar links for large screens -->
           <ul class="right hide-on-med-and-down s12">
             <li><a href="{% url 'home_page' %}">Home</a></li>
@@ -60,20 +67,30 @@ Godd Luck! -->
             <li><a href="{% url 'resources_page' %}">Resources</a></li>
             <li><a href="{% url 'contact_page' %}">Contact</a></li>
           </ul>
-      
+
           <!-- Sidenav trigger for small screens -->
-          <a href="#" data-target="mobile-demo" class="right hide-on-large-only sidenav-trigger"><i class="fa-solid fa-bars"></i></a>
+          <a
+            href="#"
+            data-target="mobile-demo"
+            class="right hide-on-large-only sidenav-trigger"
+            ><i class="fa-solid fa-bars"></i
+          ></a>
         </div>
-      
+
         <!-- Sidenav content for small screens -->
-        <ul id="mobile-demo" class="sidenav sidenav-content" style="background-color: #F9A825;">
-          <li><a id="home-link" href="{% url 'home_page' %}">Home</a></li>
-          <li><a id="history-link" href="{% url 'history_page' %}">History</a></li>
-          <li><a id="resources-link" href="{% url 'resources_page' %}">Resources</a></li>
-          <li><a id="contact-link" href="{% url 'contact_page' %}">Contact</a></li>
+        <ul
+          id="mobile-demo"
+          class="sidenav sidenav-content"
+          style="background-color: #f9a825"
+        >
+          <li><a href="{% url 'home_page' %}">Home</a></li>
+          <li><a href="{% url 'history_page' %}">History</a></li>
+          <li><a href="{% url 'resources_page' %}">Resources</a></li>
+          <li><a href="{% url 'contact_page' %}">Contact</a></li>
         </ul>
       </nav>
-      
+    </div>
+
     <!-- Header end -->
 
     <!-- Main start -->
@@ -89,22 +106,113 @@ Godd Luck! -->
     <footer class="page-footer blue lighten-1">
       <div class="container">
         <div class="row">
-          <h5 class="white-text">Meet Our Team!</h5>
-          <div class="col l4 offset-l0 s12">
+          <h5 class="white-text center-align">Meet Our Team!</h5>
+          <div class="">
             <ul class="team-members">
-              <li>
-                <a class="grey-text text-lighten-3" href="#!">Edmir Demaj</a>
-              </li>
-              <li><a class="grey-text text-lighten-3" href="#!">Ignas P</a></li>
-              <li>
-                <a class="grey-text text-lighten-3" href="#!">Kim Bergstrom</a>
-              </li>
-              <li>
-                <a class="grey-text text-lighten-3" href="#!">Mark Young</a>
-              </li>
-              <li>
-                <a class="grey-text text-lighten-3" href="#!">Jody Murray</a>
-              </li>
+              <div class="row">
+                <li class="member">
+                  <div class="col s12 m6">
+                    <a class="grey-text text-lighten-3" href="#!"
+                      >Edmir Demaj</a
+                    >
+                  </div>
+                  <div class="col s4">
+                    <a
+                      href="https://www.linkedin.com/in/edmir-demaj-software-developer/"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-linkedin-in social_icons"></i>
+                    </a>
+                    <a href="https://github.com/Edmir-Demaj" target="_blank">
+                      <i class="fa-brands fa-github social_icons"></i>
+                    </a>
+                  </div>
+                </li>
+              </div>
+
+              <div class="row">
+                <li class="member">
+                  <div class="col s12 m6">
+                    <a class="grey-text text-lighten-3" href="#!"
+                      >Ignas Vilkas</a
+                    >
+                  </div>
+                  <div class="col s4">
+                    <a
+                      href="https://www.linkedin.com/in/ignaspilybas/"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-linkedin-in social_icons"></i>
+                    </a>
+                    <a href="https://github.com/ignasvilkas" target="_blank">
+                      <i class="fa-brands fa-github social_icons"></i>
+                    </a>
+                  </div>
+                </li>
+              </div>
+
+              <div class="row">
+                <li class="member">
+                  <div class="col s12 m6">
+                    <a class="grey-text text-lighten-3 col s12 m6" href="#!"
+                      >Kim Bergstrom</a
+                    >
+                  </div>
+                  <div class="col s4">
+                    <a
+                      href="https://www.linkedin.com/in/kim-bergstrom-47704b5b/"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-linkedin-in social_icons"></i>
+                    </a>
+                    <a href="https://github.com/KimBergstroem" target="_blank">
+                      <i class="fa-brands fa-github social_icons"></i>
+                    </a>
+                  </div>
+                </li>
+              </div>
+
+              <div class="row">
+                <li class="member">
+                  <div class="col s12 m6">
+                    <a class="grey-text text-lighten-3 col s12 m6" href="#!"
+                      >Mark Young</a
+                    >
+                  </div>
+                  <div class="col s4">
+                    <a
+                      href="linkedin.com/in/mark-young-4a90ab15"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-linkedin-in social_icons"></i>
+                    </a>
+                    <a href="https://github.com/Markyjay" target="_blank">
+                      <i class="fa-brands fa-github social_icons"></i>
+                    </a>
+                  </div>
+                </li>
+              </div>
+
+              <div class="row">
+                <li class="member">
+                  <div class="col s12 m6">
+                    <a class="grey-text text-lighten-3 col s12 m6" href="#!"
+                      >Jody Murray</a
+                    >
+                  </div>
+                  <div class="col s4">
+                    <a
+                      href="https://www.linkedin.com/in/jody-murray-4b6818234/"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-linkedin-in social_icons"></i>
+                    </a>
+                    <a href="https://github.com/JodyMurray" target="_blank">
+                      <i class="fa-brands fa-github social_icons"></i>
+                    </a>
+                  </div>
+                </li>
+              </div>
             </ul>
           </div>
           <div class="col l8 s12 team-name">
@@ -118,20 +226,28 @@ Godd Luck! -->
         <div class="container">© 2023 Copyright Text</div>
       </div>
     </footer>
+
     <!-- Footer end -->
 
+    <!-- jquery link -->
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
     <!-- javascript link -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
     <script src="{% static 'js/script.js' %}"></script>
     <!-- animation link -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
-
+    <!-- font awesome link -->
     <script
       src="https://kit.fontawesome.com/9b64cea43d.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Materialize javascript link -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 

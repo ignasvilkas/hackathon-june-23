@@ -71,7 +71,7 @@ div.nav-wrapper.red.accent-2 > * {
 }
 
 #mobile-demo a {
-  font-size: 30px; 
+  font-size: 30px;
   margin-top: 40px;
 }
 
@@ -81,7 +81,6 @@ div.nav-wrapper.red.accent-2 > * {
   position: relative;
   top: 0;
   height: auto;
-  
 }
 
 /* Homepage content css */
@@ -218,8 +217,44 @@ div.nav-wrapper.red.accent-2 > * {
 /* footer css */
 
 footer {
-  min-height: 15rem;
+  min-height: 12rem;
   margin-top: auto;
+}
+
+.social_icons {
+  height: auto;
+  color: #114069;
+  margin-left: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.member {
+  font-size: 35px;
+  align-items: center;
+  margin-left: 20%;
+  font-weight: 700;
+}
+
+.member:hover {
+  transform: scale(1.4);
+  transition: 1.3s;
+}
+
+.member a {
+  font-size: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-name p {
+  margin-left: 50%;
+  font-size: 30px;
+}
+
+.team-name p:hover {
+  transform: scale(1.1);
 }
 
 /* --------------------------------------------------- History page styles */
