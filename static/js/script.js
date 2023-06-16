@@ -2,6 +2,10 @@
 // Delete the placeholder below and start coding.
 // Godd Luck!
 
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
 function changeButton() {
   var button = document.querySelector(".my-button");
 
@@ -12,12 +16,26 @@ function changeButton() {
   button.innerHTML = "Javascript works :)";
 }
 
-function closeSideNav() {
-    var sidenavInstance = M.Sidenav.getInstance(document.getElementById('mobile-nav'));
-    sidenavInstance.close();
-  }
+document.addEventListener('DOMContentLoaded', function() {
+  // Get references to the sidenav and the sidenav links
+  var sidenav = document.querySelector('.sidenav');
+  var sidenavLinks = document.querySelectorAll('#mobile-demo a');
 
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
+  // Add event listeners to the sidenav links
+  sidenavLinks.forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      // Close the sidenav after a link is clicked (optional)
+      var sidenavInstance = M.Sidenav.getInstance(sidenav);
+      sidenavInstance.close();
+
+      // Prevent the default link behavior
+      event.preventDefault();
+
+      // Get the target URL from the link's href attribute
+      var targetUrl = link.getAttribute('href');
+
+      // Navigate to the target URL
+      window.location.href = targetUrl;
+    });
   });
+});

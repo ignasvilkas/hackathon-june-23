@@ -46,58 +46,34 @@ Godd Luck! -->
   </head>
 
   <body>
+    
     <div class="navbar-fixed navbar">
       <nav>
         <div class="nav-wrapper red accent-2">
-          <img
-            src="{% static 'media/logo.png'%}"
-            class="circle responsive-img logo hide-on-med-and-down"
-            alt="LOGO"
-          />
-
-          <a
-            href="{% url 'home_page' %}"
-            class="brand-logo team_name center-align left"
-            >Spectrumind</a
-          >
-          <a
-            href="#"
-            data-target="mobile-nav"
-            class="right sidenav-trigger center-align"
-          >
-            <i class="fa-solid fa-bars"></i>
-          </a>
-
-          <ul id="mobile-nav" class="right hide-on-med-and-down s12">
-            <li>
-              <a href="{% url 'home_page' %}" onclick="closeSideNav()">Home</a>
-            </li>
-            <li>
-              <a href="{% url 'history_page' %}" onclick="closeSideNav()"
-                >History</a
-              >
-            </li>
-            <li>
-              <a href="{% url 'resources_page' %}" onclick="closeSideNav()"
-                >Resources</a
-              >
-            </li>
-            <li>
-              <a href="{% url 'contact_page' %}" onclick="closeSideNav()"
-                >Contact</a
-              >
-            </li>
+          <img src="{% static 'media/logo.png'%}" class="circle responsive-img logo hide-on-med-and-down" alt="LOGO" />
+          <a href="{% url 'home_page' %}" class="brand-logo team_name center-align left">Spectrumind</a>
+      
+          <!-- Navbar links for large screens -->
+          <ul class="right hide-on-med-and-down s12">
+            <li><a href="{% url 'home_page' %}">Home</a></li>
+            <li><a href="{% url 'history_page' %}">History</a></li>
+            <li><a href="{% url 'resources_page' %}">Resources</a></li>
+            <li><a href="{% url 'contact_page' %}">Contact</a></li>
           </ul>
+      
+          <!-- Sidenav trigger for small screens -->
+          <a href="#" data-target="mobile-demo" class="right hide-on-large-only sidenav-trigger"><i class="fa-solid fa-bars"></i></a>
         </div>
+      
+        <!-- Sidenav content for small screens -->
+        <ul id="mobile-demo" class="sidenav sidenav-content" style="background-color: #F9A825;">
+          <li><a id="home-link" href="{% url 'home_page' %}">Home</a></li>
+          <li><a id="history-link" href="{% url 'history_page' %}">History</a></li>
+          <li><a id="resources-link" href="{% url 'resources_page' %}">Resources</a></li>
+          <li><a id="contact-link" href="{% url 'contact_page' %}">Contact</a></li>
+        </ul>
       </nav>
-
-      <ul class="sidenav" id="mobile-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">History</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+      
     <!-- Header end -->
 
     <!-- Main start -->
@@ -145,14 +121,19 @@ Godd Luck! -->
     <!-- Footer end -->
 
     <!-- javascript link -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
     <script src="{% static 'js/script.js' %}"></script>
     <!-- animation link -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
 
     <script
       src="https://kit.fontawesome.com/9b64cea43d.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <script>
       AOS.init();
