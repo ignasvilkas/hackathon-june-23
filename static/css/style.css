@@ -131,10 +131,34 @@ div.nav-wrapper.red.accent-2 > * {
   margin-bottom: 10px;
 }
 
+.third_section {
+    margin-top: -8%;
+    margin-bottom: 5%;
+}
+
+.third_section h1 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.third_section h3 {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.third_section p {
+    font-size: 35px;
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 24%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
 footer {
   min-height: 15rem;
   margin-top: auto;
 }
+
+
 
 /* --------------------------------------------------- History page styles */
 #history-main-heading {
