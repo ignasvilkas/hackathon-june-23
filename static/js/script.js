@@ -2,17 +2,11 @@
 // Delete the placeholder below and start coding.
 // Godd Luck!
 
-$(document).ready(function(){
-  $('.sidenav').sidenav();
+$(document).ready(function() {
+  var sideNavInstance = $('.sidenav').sidenav();
+
+  // Add event listener to close the sidenav on link click
+  $('#mobile-demo li a').on('click', function() {
+    sideNavInstance.sidenav('close');
+  });
 });
-
-function changeButton() {
-  var button = document.querySelector(".my-button");
-
-  // Change color
-  button.style.backgroundColor = "red";
-
-  // Change text
-  button.innerHTML = "Javascript works :)";
-}
-
