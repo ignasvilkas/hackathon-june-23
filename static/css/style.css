@@ -359,10 +359,30 @@ footer {
 }
 
 /* --------------------------------------------------- Resouces page styles */
-.hero-image {
-  width: 400px;
-  height: 400px;
+#resources-h1 {
+  text-align: center;
+  color: #010b13;
 }
 
+#hugging-herlsef {
+  background-image: url(../media/hugging-herself.jpeg);
+}
+
+#guy-thumbsup {
+  background-image: url(../media/guy-thumbsup.jpeg);
+}
+
+.resources-img {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-top: 70px;
+}
+
+.resources-items {
+  
+}
 
 /* --------------------------------------------------- Contact page styles */
