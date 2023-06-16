@@ -2,6 +2,10 @@
 // Delete the placeholder below and start coding.
 // Godd Luck!
 
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
 function changeButton() {
   var button = document.querySelector(".my-button");
 
@@ -12,12 +16,3 @@ function changeButton() {
   button.innerHTML = "Javascript works :)";
 }
 
-function closeSideNav() {
-    var sidenavInstance = M.Sidenav.getInstance(document.getElementById('mobile-nav'));
-    sidenavInstance.close();
-  }
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
-  });
