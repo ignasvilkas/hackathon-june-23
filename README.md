@@ -164,7 +164,7 @@ Frameworks, Libraries & Programs Used
 •	Google Fonts - To import the fonts used on the website.
 •	Font Awesome - For the iconography on the website.
 •	Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-•	Favicon.io - To create favicon.
+•	Favicon.io - Was used to create favicon
 
 
 ### Languages Used
