@@ -5,10 +5,12 @@
 
 <!-- Contant us header section -->
 <section>
-    <div class="container center-align">
+    <div class="container center-align" style="margin-bottom: 2rem;">
         <h1 id="history-main-heading">Your Voice Matters: Awareness
         </h1>
-        <p class="contact-us-paragraph contact-us-bold">Please feel free to use the form below to get in touch with us, whether you
+        <hr class="hr-pride">
+        <p class="contact-us-paragraph contact-us-bold">Please feel free to use the form below to get in touch with us,
+            whether you
             require support, have inquiries,
             or wish to engage with our team. While the form is primarily intended for the LGBTQ community, we warmly
             welcome individuals from all backgrounds and interests. Our commitment to diversity means we are dedicated
@@ -17,12 +19,11 @@
     </div>
 </section>
 
-
 <!-- Contact form section-->
 <section>
     <div class="container">
         <div class="row">
-            <div class="grid-example col s12 m6">
+            <div class="grid-example col s12 l6">
                 <h3>Let us reach out to you!</h3>
                 <p class="contact-us-paragraph">Please fill in this form if you want to reach a Counselor</p>
                 <form action="www.team3.com" aria-label="contact form" method="post" target="_blank">
@@ -39,82 +40,60 @@
 
                     <label for="subject"></label>
                     <textarea id="subject" name="subject" aria-label="textarea for any request"
-                        placeholder="Any special request" style="height:150px"></textarea>
-                    <input type="submit" value="Submit"
-                        class="waves-effect waves-light btn white black-text black-border">
+                        placeholder=" Your message" style="height:100px; margin-bottom: 0.7rem;"></textarea>
+                    <input type="submit" value="Submit" class=" button-89">
                 </form>
             </div>
-            <div class="grid-example col s12 m6">
-                <!-- Image section here -->
-                <div class="col s12 l6 valign-wrapper">
-                    <img src="{% static 'media/contact-us-paragraph.jpg'%}" class="alexander"
-                        alt="contact us image" />
-                </div>
+            <!-- Image section here -->
+            <div class="col s12 l6 valign-wrapper">
+                <img src="{% static 'media/contact-us-image.jpg'%}" class="alexander" alt="contact us image" />
             </div>
         </div>
-        <hr class="hr-pride">
     </div>
 </section>
 
-
 <!-- FAQ section  -->
 <section>
-    <div class="faq-container container center-align purple">
-        <div class="row">
-            <h3 class="contact-us-bold">FAQ - Questions and Answers</h3>
-            <div class="faq-question col s12 m6">
-                <details>
-                    <!-- Question  -->
-                    <summary class="contact-us-bold">What resources are available for LGBTQ+ individuals seeking support?</summary>
-                    <div>
-                        <!-- Answer  -->
-                        <p class="white-text contact-us-paragraph">Discover a wealth of resources, including helplines,
-                            counseling services,
-                            support groups, and
-                            community organizations, that provide assistance and guidance for LGBTQ+ individuals.</p>
-                    </div>
-                </details>
+    <div class="faq-container center-align purple lighten-4">
+        <h3 class="contact-us-bold">FAQ - Questions and Answers</h3>
+        <details>
+            <summary class="faq-question">What resources are available for LGBTQ+ individuals seeking
+                support?</summary>
+            <div class="faq-answer">
+                Discover a wealth of resources, including helplines,
+                counseling services,
+                support groups, and
+                community organizations, that provide assistance and guidance for LGBTQ+ individuals.
             </div>
-            <div class="faq-question col s12 m6">
-                <details>
-                    <summary class="contact-us-bold">How can I become an ally to the LGBTQ+ community?</summary>
-                    <!-- Question  -->
-                    <div>
-                        <p class="white-text contact-us-paragraph">Learn how to actively support and advocate for the
-                            LGBTQ+ community,
-                            including tips on
-                            education, inclusivity, and understanding, to become a strong ally and promote equality.</p>
-                        <!-- Answer  -->
-                    </div>
-                </details>
+        </details>
+
+        <details>
+            <summary class="faq-question">How can I become an ally to the LGBTQ+ community?</summary>
+            <div class="faq-answer">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
             </div>
-            <div class="faq-question col s12 m6">
-                <details>
-                    <summary class="contact-us-bold">Where can I find safe spaces and LGBTQ+ friendly establishments?</summary>
-                    <!-- Question  -->
-                    <div>
-                        <p class="white-text contact-us-paragraph">Explore a curated list of safe spaces, such as
-                            LGBTQ+-friendly cafes,
-                            bars, clubs, and
-                            community centers, where individuals can feel comfortable, accepted, and celebrated.</p>
-                        <!-- Answer  -->
-                    </div>
-                </details>
+        </details>
+
+        <details>
+            <summary class="faq-question">What can I do to promote awareness and acceptance?</summary>
+            <div class="faq-answer">
+                Discover practical steps and initiatives that you can
+                take to foster
+                LGBTQ+ awareness,
+                promote acceptance, and create an inclusive environment within your community.
             </div>
-            <div class="faq-question col s12 m6">
-                <details>
-                    <summary class="contact-us-bold">What can I do to promote awareness and acceptance?</summary>
-                    <!-- Question  -->
-                    <div>
-                        <p class="white-text contact-us-paragraph">Discover practical steps and initiatives that you can
-                            take to foster
-                            LGBTQ+ awareness,
-                            promote acceptance, and create an inclusive environment within your community.</p>
-                        <!-- Answer  -->
-                    </div>
-                </details>
+        </details>
+
+        <details>
+            <summary class="faq-question">Where can I find safe spaces and LGBTQ+ friendly establishments?</summary>
+            <div class="faq-answer">
+                Explore a curated list of safe spaces, such as
+                LGBTQ+-friendly cafes,
+                bars, clubs, and
+                community centers, where individuals can feel comfortable, accepted, and celebrated.
             </div>
-        </div>
+        </details>
     </div>
 </section>
 
@@ -124,7 +103,8 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h3>Binary Unicorns<i class="fa-solid fa-heart"></i></h3>
+                <h3 class="center-align"><i class="fa-solid fa-heart"></i> Binary Unicorns <i
+                        class="fa-solid fa-heart"></i></h3>
                 <div class="row">
 
                     <div class="col s12 m4">
