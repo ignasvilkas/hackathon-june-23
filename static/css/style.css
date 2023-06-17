@@ -403,10 +403,55 @@ border-radius: 25px;
   display: none !important;
 }
 
+/* --------------------------------------------------- Contact page styles */
+.contact-us-paragraph{
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.contact-us-bold{
+  font-weight: 900;
+}
+
+/* FAQ styling */
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+
+.faq-question{
+  margin: 10 0;
+}
+
+.faq-container{
+  border-radius: 15px;
+}
+=======
 .carousel {
     min-height: 30rem;
 }
-
-
 
 /* --------------------------------------------------- Contact page styles */
