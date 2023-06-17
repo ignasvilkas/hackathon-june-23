@@ -382,7 +382,8 @@ footer {
 
 
 .carousel-item {
-  padding-bottom: 350px;
+ width: 20rem !important;
+ height: 15rem !important;
 }
 
 .carousel-img {
@@ -405,9 +406,10 @@ footer {
   display: none !important;
 }
 
-.carousel-item {
-  width: 500px !important;
-  height: 500px !important;
+.carousel {
+
 }
+
+
 
 /* --------------------------------------------------- Contact page styles */
