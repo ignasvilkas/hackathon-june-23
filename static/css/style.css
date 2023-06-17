@@ -380,4 +380,12 @@ footer {
   margin-top: 70px;
 }
 
+.carousel-item {
+  padding-bottom: 350px;
+}
+
+.resources-read--more {
+  color: #b41a02;
+}
+
 /* --------------------------------------------------- Contact page styles */
