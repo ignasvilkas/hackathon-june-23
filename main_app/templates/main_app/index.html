@@ -30,9 +30,9 @@ Godd Luck! -->
 
 </div>
 
-<div class="card row">
+<div class="card row" data-aos="fade-left" data-aos-duration="2500" data-aos-once="true">
     
-    <h1 class="center-align">Stories of Pride</h1>
+    <h1 class="center-align">Histories of Pride</h1>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4"><p>
         Welcome to our LGBT+ Mental Health website, 
@@ -47,11 +47,11 @@ Godd Luck! -->
       </p>
     </div>
     <div class="history_button center-align">
-        <a class="black-text waves-effect waves-light btn white">Discover More!</a>
+        <a href="{% url 'history_page' %}" class="black-text waves-effect waves-light btn white">Discover More!</a>
     </div>
   </div>
 
-  <div class="row">
+  <div class="row" data-aos="fade-right" data-aos-duration="2500" data-aos-once="true">
     <div class="col s12 center-align third_section">
         <h1 class="black-text">We're here for you,</h1>
         <h3 class="black-text">24/7</h3>
@@ -65,16 +65,16 @@ Godd Luck! -->
       <div class="help_section">
         <div class="row">
           <div class="col s12 m6">
-            <img src="{% static 'media/group.jpg'%}" alt="Image" class="responsive-img">
+            <img data-aos="fade-right" data-aos-duration="2500" data-aos-once="true" src="{% static 'media/group.jpg'%}" alt="Image" class="responsive-img">
           </div>
           <div class="col s12 m6">
             <div class="text-box center-align">
-              <h2>Reach Out</h2>
+              <h2 data-aos="fade-left" data-aos-duration="2500" data-aos-once="true">Reach Out</h2>
               <p class="right-align">Remember, you are not alone. We are here to support you every step of the way. 
                 Visit our Resources page and discover the wealth of information and support available to you. Together, 
                 we can promote mental wellness and create a stronger, healthier LGBT+ community.</p>
                 <div class="resources_button">
-                    <a class="waves-effect waves-light btn white black-text black-border">Talk to us</a>
+                    <a href="{% url 'resources_page' %}" class="waves-effect waves-light btn white black-text black-border">Talk to us</a>
                 </div>
             </div>
           </div>
