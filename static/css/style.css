@@ -359,11 +359,41 @@ footer {
 }
 
 /* --------------------------------------------------- Resouces page styles */
-.hero-image {
-  width: 400px;
-  height: 400px;
+.resources-h {
+  text-align: center;
+  color: #010b13;
 }
 
+#hugging-herlsef {
+  background-image: url(../media/hugging-herself.jpeg);
+}
+
+#guy-thumbsup {
+  background-image: url(../media/guy-thumbsup.jpeg);
+}
+
+.resources-img {
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-top: 70px;
+}
+
+
+.carousel-item {
+  padding-bottom: 350px;
+}
+
+.carousel-img {
+  border-radius: 15px;
+  width: 100px;
+  height: 150px;
+}
+
+.resources-read--more {
+  color: #b41a02;
+=======
 #fixed {
   margin-top: 100px;
   color: #010b13;
