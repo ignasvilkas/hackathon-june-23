@@ -379,6 +379,10 @@ footer {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.contact-us-bold{
+  font-weight: 900;
+}
+
 /* FAQ styling */
 summary {
   padding: .5em 1.3rem;
