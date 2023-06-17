@@ -18,3 +18,10 @@ $(document).ready(function() {
   });
 });
 
+// function to clear the form after submitting it
+window.onbeforeunload = () => {
+  for (const form of document.getElementsByTagName("form")) {
+    form.reset();
+  }
+};
+
