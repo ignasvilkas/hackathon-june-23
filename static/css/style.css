@@ -463,6 +463,23 @@ footer {
   margin-bottom: 4rem; /* Adjust the bottom margin value as desired */
 }
 
+.custom-container {
+  border-radius: 15px;
+}
+
+/* Submit button style */
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #ff5252;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
 /* FAQ styling */
 summary {
   padding: 0.5em 1.3rem;
@@ -495,10 +512,6 @@ details[open] div {
 
 .faq-question {
   margin: 10 0;
-}
-
-.faq-container {
-  border-radius: 15px;
 }
 
 /*-------------------------------*/
