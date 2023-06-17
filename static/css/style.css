@@ -366,10 +366,12 @@ footer {
 
 #hugging-herlsef {
   background-image: url(../media/hugging-herself.jpeg);
+  height: 15rem;
 }
 
 #guy-thumbsup {
   background-image: url(../media/guy-thumbsup.jpeg);
+  height: 15rem;
 }
 
 .resources-img {
@@ -387,13 +389,8 @@ footer {
 }
 
 .carousel-img {
-  border-radius: 15px;
-  width: 100px;
-  height: 150px;
-}
-
-.resources-read--more {
-  color: #b41a02;
+height: 15rem;
+border-radius: 25px;
 }
 
 #fixed {
@@ -407,7 +404,7 @@ footer {
 }
 
 .carousel {
-
+    min-height: 30rem;
 }
 
 
