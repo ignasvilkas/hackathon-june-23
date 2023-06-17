@@ -422,12 +422,12 @@ div.nav-wrapper.red.accent-2>* {
 
 #hugging-herself {
   background-image: url(../media/hugging-herself.jpeg);
-  height: 15rem;
+  height: 20rem;
 }
 
 #guy-thumbsup {
   background-image: url(../media/guy-thumbsup.jpeg);
-  height: 15rem;
+  height: 20rem;
 }
 
 .resources-img {
@@ -440,18 +440,22 @@ div.nav-wrapper.red.accent-2>* {
 
 .carousel-item {
   width: 20rem !important;
-  height: 15rem !important;
+  height: 20rem !important;
 }
 
 .carousel-img {
   height: 15rem;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 #fixed {
   margin-top: 100px;
   color: #010b13;
   text-align: center;
+}
+
+.blue {
+  margin-bottom: 2rem;
 }
 
 /* --------------------------------------------------- Contact page styles */
