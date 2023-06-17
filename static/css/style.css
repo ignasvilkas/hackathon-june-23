@@ -30,9 +30,10 @@ body {
 /* --------------------------------------------------- Home page styles */
 
 /* Navbar css */
-.team_name {
+.team-name {
   font-family: "Amatic SC", cursive;
-  margin-left: 35%;
+  margin-left: 33%;
+  font-size: 2rem !important;
 }
 
 .team_name:hover,
@@ -62,7 +63,7 @@ nav {
   height: 5rem;
 }
 
-div.nav-wrapper.red.accent-2 > * {
+div.nav-wrapper.red.accent-2>* {
   padding-top: 1rem;
 }
 
@@ -76,6 +77,11 @@ div.nav-wrapper.red.accent-2 > * {
 
 .sidenav-overlay {
   background-color: transparent;
+  z-index: 1;
+}
+
+.sidenav-content {
+  z-index: 3;
 }
 
 #mobile-demo a {
@@ -345,15 +351,13 @@ footer {
   margin: 1rem 0;
   height: 30px;
   border: none;
-  background: linear-gradient(
-    to right,
-    #ff0018,
-    #ffa52c,
-    #ffff41,
-    #008018,
-    #0000f9,
-    #86007d
-  );
+  background: linear-gradient(to right,
+      #ff0018,
+      #ffa52c,
+      #ffff41,
+      #008018,
+      #0000f9,
+      #86007d);
 }
 
 .rainbow {
@@ -398,10 +402,6 @@ footer {
   margin-top: 100px;
   color: #010b13;
   text-align: center;
-}
-
-.sidenav-overlay {
-  display: none !important;
 }
 
 /* --------------------------------------------------- Contact page styles */
@@ -450,6 +450,7 @@ details[open] div {
 .faq-container {
   border-radius: 15px;
 }
+
 /*-------------------------------*/
 .carousel {
   min-height: 30rem;
@@ -459,10 +460,12 @@ details[open] div {
 
 /* For large screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px) {
+
   .navbar a,
   .navbar .team-name {
     font-size: 40px;
   }
+
   .logo {
     width: 5%;
   }
@@ -499,13 +502,16 @@ details[open] div {
 
 /* For large screens sizes from 1440px wide and down */
 @media screen and (min-width: 1440px) and (max-width: 1800px) {
+
   .navbar a,
   .navbar .team-name {
     font-size: 25px;
   }
+
   .logo {
     width: 6%;
   }
+
   .landing_page_container {
     height: 70vh;
   }
@@ -537,13 +543,16 @@ details[open] div {
 
 /* Media query for large screens */
 @media (min-width: 881px) and (max-width: 1024px) {
+
   .navbar a,
   .navbar .team-name {
     font-size: 20px;
   }
+
   .logo {
     width: 7%;
   }
+
   .landing_page_container {
     height: 70vh;
   }
@@ -565,6 +574,7 @@ details[open] div {
   .circle_1 .responsive-img {
     margin-right: -20%;
   }
+
   .card {
     margin-top: 15%;
   }
@@ -619,12 +629,13 @@ details[open] div {
     margin-top: 15%;
     width: 60%;
   }
+
   .card h1 {
     margin-left: -25px;
     position: relative;
     right: 13%;
     margin-top: 50%;
-  
+
   }
 
   .card-content p {
@@ -649,11 +660,12 @@ details[open] div {
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
   .card {
     height: 40%;
     margin-top: -20%;
   }
+
   .card h1 {
     font-size: 45px;
     margin-left: 70px;
@@ -671,6 +683,6 @@ details[open] div {
   .third_section p {
     font-size: 30px;
     width: 90%;
-    
+
   }
 }
