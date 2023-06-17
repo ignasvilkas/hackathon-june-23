@@ -9,7 +9,7 @@
   <meta name="description"
     content="Spectrumind - is an informative web app designed to raise awareness about Mental Health in the LGBT community, including resources to get help." />
   <meta name="keywords"
-    content="Spectrumind, LGBT Mental health, LGBTQ+ Mental Health, LGBTQ+ Support, Mental Health Resources, LGBT Youth Mental Health" />
+    content="Spectrumind, LGBT Mental Health, LGBTQ+ Mental Health, LGBTQ+ Support, Mental Health Resources, LGBT Youth Mental Health" />
   <!-- google fonts link -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,19 +26,15 @@
   <!-- css link -->
   <link rel="stylesheet" href="{% static 'css/style.css' %}" />
   <title>Spectrumind | {% block title %}{% endblock title %}</title>
-
-  <!-- JavaScript link-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 
 <body>
   <div class="navbar-fixed navbar">
+    <!-- Navbar -->
     <nav>
       <div class="nav-wrapper red accent-2">
         <img src="{% static 'media/logo.png'%}" class="circle responsive-img logo hide-on-med-and-down" alt="LOGO" />
-        <a href="{% url 'home_page' %}" class="brand-logo team_name center-align left">Spectrumind</a>
+        <a href="{% url 'home_page' %}" class="brand-logo team-name center-align left">Spectrumind</a>
 
         <!-- Navbar links for large screens -->
         <ul class="right hide-on-med-and-down s12">
@@ -54,7 +50,7 @@
       </div>
 
       <!-- Sidenav content for small screens -->
-      <ul id="mobile-demo" class="sidenav sidenav-content" style="background-color: #f9a825">
+      <ul id="mobile-demo" class="sidenav sidenav-content" style="background-color: #f9a825; height: 100vh;">
         <li><a href="{% url 'home_page' %}">Home</a></li>
         <li><a href="{% url 'history_page' %}">History</a></li>
         <li><a href="{% url 'resources_page' %}">Resources</a></li>
@@ -173,10 +169,8 @@
   <!-- Footer end -->
 
   <!-- jquery link -->
-
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- javascript link -->
-
   <script src="{% static 'js/script.js' %}"></script>
   <!-- animation link -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
@@ -185,9 +179,7 @@
   <script src="https://kit.fontawesome.com/9b64cea43d.js" crossorigin="anonymous"></script>
 
   <!-- Materialize javascript link -->
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
   <script>
     AOS.init();
   </script>
