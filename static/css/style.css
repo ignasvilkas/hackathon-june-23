@@ -450,6 +450,12 @@ footer {
   font-weight: 900;
 }
 
+.contact-us-image{
+  margin: 5rem 0;
+  width: 100%;
+  border-radius: 25px;
+}
+
 /* FAQ styling */
 summary {
   padding: 0.5em 1.3rem;
@@ -492,8 +498,6 @@ details[open] div {
 .carousel {
   min-height: 30rem;
 }
-
-/* --------------------------------------------------- Contact page styles */
 
 /* For large screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px) {
