@@ -455,6 +455,13 @@ footer {
   width: 100%;
   border-radius: 25px;
 }
+.custom-section-top {
+  margin-top: 20px; /* Adjust the top margin value as desired */
+}
+
+.custom-section-bottom {
+  margin-bottom: 4rem; /* Adjust the bottom margin value as desired */
+}
 
 /* FAQ styling */
 summary {
