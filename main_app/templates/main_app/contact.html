@@ -39,7 +39,8 @@
                     <label for="subject"></label>
                     <textarea id="subject" name="subject" aria-label="textarea for any request"
                         placeholder="Any special request" style="height:150px"></textarea>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit"
+                        class="waves-effect waves-light btn white black-text black-border">
                 </form>
             </div>
             <div class="grid-example col s12 m6">
@@ -60,21 +61,22 @@
     <div class="container center-align purple">
         <div class="row">
             <h3>FAQ - Questions and Answers</h3>
-            <div class="grid-example col s12 m6">
+            <div class="col s12 m6">
                 <details>
-                    <summary>What resources are available for LGBTQ+ individuals seeking support?</summary>
                     <!-- Question  -->
+                    <summary>What resources are available for LGBTQ+ individuals seeking support?</summary>
                     <div>
+                        <!-- Answer  -->
                         <p class="white-text">Discover a wealth of resources, including helplines, counseling services,
                             support groups, and
                             community organizations, that provide assistance and guidance for LGBTQ+ individuals.</p>
-                        <!-- Answer  -->
                     </div>
                 </details>
             </div>
-            <div class="grid-example col s12 m6">
+            <div class="col s12 m6">
                 <details>
-                    <summary>How can I become an ally to the LGBTQ+ community?</summary><!-- Question  -->
+                    <summary>How can I become an ally to the LGBTQ+ community?</summary>
+                    <!-- Question  -->
                     <div>
                         <p class="white-text">Learn how to actively support and advocate for the LGBTQ+ community,
                             including tips on
@@ -83,7 +85,7 @@
                     </div>
                 </details>
             </div>
-            <div class="grid-example col s12 m6">
+            <div class="col s12 m6">
                 <details>
                     <summary>Where can I find safe spaces and LGBTQ+-friendly establishments?</summary>
                     <!-- Question  -->
@@ -95,7 +97,7 @@
                     </div>
                 </details>
             </div>
-            <div class="grid-example col s12 m6">
+            <div class="col s12 m6">
                 <details>
                     <summary>What can I do to promote LGBTQ+ awareness and acceptance in my community?</summary>
                     <!-- Question  -->
@@ -109,6 +111,37 @@
             </div>
         </div>
     </div>
+</section>
+
+
+<!-- Information section-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h3>Binary Unicorns</h3>
+                <div class="row">
+
+                    <div class="col s12 m4">
+                        <h4>Address</h4>
+                        <p>The Non-binary Unicorns Project</p>
+                            PO Box 349500
+                            West Hollywood, CA 90030</p>
+                    </div>
+                    <div class="col s12 m4">
+                        <h4>Phone Number</h4>
+                        <p>(212) 000-2049</p>
+                    </div>
+                    <div class="col s12 m4">
+                        <h4>General Inquiries</h4>
+                        <p><a href="mailto:nonbinaryunicorns" aria-label="Send email">Please email our team</a></p>
+                    </div>
+                </div>
+                <div class="resources_button center-align">
+                    <a class="waves-effect waves-light btn white black-text black-border">Reach a Counselor</a>
+                </div>
+            </div>
+        </div>
 </section>
 
 {% endblock %}
