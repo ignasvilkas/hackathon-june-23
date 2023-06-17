@@ -1,14 +1,9 @@
 # Spectrumind
+Welcome to Spectrumind, a transformative online platform dedicated to promoting pride representation, raising awareness about mental health, and fostering well-being within the LGBTQ+ community and beyond. Our project is fueled by a deep commitment to creating a more inclusive and compassionate world, where every individual feels seen, accepted, and supported.
+1. Pride Representation: At Spectrumind, we strive to celebrate the rich diversity of identities within the LGBTQ+ community. Our aim is to provide a safe space where individuals can freely express their authentic selves, share their stories, and find inspiration. Through empowering narratives, vibrant artwork, and engaging content, we aim to amplify voices that have been marginalized and break down societal barriers.
+2. Mental Health Awareness: We recognize the profound impact that mental health has on the well-being of individuals, especially those within the LGBTQ+ community. Spectrumind is dedicated to shedding light on the unique challenges faced by this community and providing resources, support, and information to help navigate those struggles. Our goal is to reduce stigma, foster understanding, and create a culture of empathy and acceptance.
+3. Well-being and Empowerment: Spectrumind believes in the power of holistic well-being. We aim to empower individuals by providing tools, resources, and guidance that promote self-care, personal growth, and resilience. Our goal is to nurture a community where mental, emotional, and physical well-being are prioritized, leading to a stronger and more vibrant community overall.
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
-
-Add a Blurb about the site here, what does it do, why did you build it?
-
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
-
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
-
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
 ---
 
@@ -50,11 +45,33 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+A group of unlikely coders with various abilities came together to produce a website dedicated to representing the LGBTQ+ community and bring awareness to others about the struggles encountered by the community throughout history and up to the current day.
+The concept of the name Spectrumind developed from the idea of connecting mental wellness and the human brain and associating the light spectrum to a community defined by its rainbow colors.
+Key information for the site
+•	What does it mean to be a part of the LGBTQ+.
+•	How can we support members of the LGBTQ+ community who suffer with feeling ostracized by society.
+•	Where can we learn about the history and accomplishments of the community as well as important figures and icons.
+•	What can we do to help people who struggle to understand their role in the community.
+•	When do events happen throughout the year that promote awareness.
+
 
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+Client Goals
+•	To be able to view the site on a range of device sizes.
+•	To make it easy for people who wish to learn more about the LGBTQ+ community and make the site more accessible and understandable.
+•	To make the content and information clear, easy and concise for all users.
+•	To provide accessible and user-friendly links that help those in need of council.  
+First Time Visitor Goals
+•	I want to find out more about the LGBTQ+ community and how I can support them.
+•	I want to be able to easily navigate through the website's pages, so that I can find the information I'm looking for.
+•	I want to be able to find their social media profiles with ease.
+Returning Visitor Goals
+•	I want to find up to date information on current LGBTQ+ news and events.
+•	I want to be able to find necessary links to get help or find someone to talk to, so that I can get help if needed for my mental health.
+Frequent Visitor Goals
+•	I want to be able to follow current events regarding the LGBTQ+ community.
+
 
 ## Design
 
@@ -68,15 +85,10 @@ I like to include a palette of the colour scheme here, my favourite site for cre
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
-
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
-
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+Google Fonts was used for the following fonts:
+•	Amatic SC is a simple but effective hand drawn webfont. It  is used for the Headings and some body text on the site.
+•	Josefin Sans The idea of this typeface is to be geometric, elegant, with a vintage feeling, for use at larger sizes. It is inspired by geometric sans serif designs is used for the paragraphs on the site. It is a sans-serif font.
+•	Cursive and sans serif are used as back ups.
 
 ### Imagery
 
