@@ -145,6 +145,10 @@ div.nav-wrapper.red.accent-2>* {
   margin-top: -2px;
 }
 
+.support-message {
+  margin: 0 !important;
+}
+
 .button-89 {
   --b: 3px;
   /* border thickness */
@@ -228,10 +232,8 @@ div.nav-wrapper.red.accent-2>* {
 
 .third_section p {
   font-size: 35px;
-  width: 50%;
-  margin-top: 3%;
-  margin-left: 24%;
   font-family: "Josefin Sans", sans-serif;
+  margin: 0;
 }
 
 /* Reach out section css */
@@ -278,47 +280,57 @@ div.nav-wrapper.red.accent-2>* {
 
 /* footer css */
 
-footer {
-  min-height: 12rem;
-  margin-top: auto;
+.footer {
+  background-color: #114069;
+  padding: 20px;
+  text-align: center;
 }
 
-.social_icons {
-  height: auto;
-  color: #114069;
+.team-members {
   display: flex;
-  flex-direction: row-reverse;
-}
-
-.member {
-  font-size: 30px;
-  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
-  transition: transform 1.3s;
+  margin-top: 20px;
 }
 
-.member:hover {
-  transform: scale(1.2);
-}
-
-.member a {
-  font-size: 20px;
-  margin-top: 10px;
+.team-member {
+  flex-basis: 50%;
+  max-width: 200px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
 
-.team-name p {
-  margin-left: 140%;
-  position: relative;
-  font-size: 30px;
-  width: 30%;
+.team-member img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.team-name p:hover {
-  transform: scale(1.1);
-  transition: 1.1s;
+.team-member .social-icons {
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.team-member .social-icons:hover {
+  scale: 1.2;
+}
+
+.team-member .social-icons a {
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+#footer-cp {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 /* --------------------------------------------------- History page styles */
@@ -694,6 +706,10 @@ details[open] div {
 
   .help_section img {
     margin-top: 60%;
+  }
+
+  .team-member {
+    flex-basis: 100%;
   }
 }
 
