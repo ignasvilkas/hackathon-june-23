@@ -104,15 +104,35 @@ Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://ww
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+The website is comprised of four pages, three of which are accessible from the navigation menu (home page, books page & contact us page). The fourth page is a contact page that allows the user to submit their details to show support for the community.
 
-This section can be used to explain what pages your site is made up of.
+Home Page.
+•	Includes a stories of pride section that gives a short paragraph explaining the objective of the website and a Discover more link that takes you to a more in depth description of the overall goal of the website.
+•	We’re here for you section to reassure our ongoing availability to those who need help.
+•	A reach out section containing a short paragraph advising the user to visit the resource page and allow easy access to our contact page through a talk to us button.
+History page- The navigation link for historical stories and famous figures in history:
+•	A heading containing relevant question about the long historical existence of the LGBTQ+
+•	Pictures containing famous historical figures that shaped our world and changed the perception in society and influenced many people during their lives. 
+•	A heading of moments to be remembered 
+•	Images and paragraphs pertaining to a very important time and event in the history of the LGBTQ+ community, the Stonewall Riots, and Marsha Johnson a prominent leader for the community.
+Resources Page
+•	A heading containing the question “How can we help each other?”
+•	A section that focuses on Acceptance with a link to a guide on relevant topics and a picture of a woman hugging herself to indicate acceptance of oneself.
+•	A section that focuses on Supportive with a link to a guide on relevant topics and a picture of a man giving the thumbs up to indicate support or encouragement.
+•	A section that focuses on Understanding with a carousel of various links to guides and information on relevant topics and pictures of people in the pose of thought to indicate inquisitiveness.
+
+Contact Page.
+•	A heading containing “Your voice matters: LGBTQ+ Awareness” where the LGTBQ+ is in the iconic rainbow colors.
+•	A let us reach out to you section, whereby the user inputs first and last name and their email with any special request and we can get back to them as soon as possible. A picture containing a relevant scene to the right of the contact section.
+•	A FAQ- Question & Answers section that allows users easy access to informative sites, friendly and welcoming establishments as well as promotional sites to strengthen awareness and involvement of the user.
+Future Implementations.
+
 
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
-
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+All Pages on the website have:
+•	A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an image of the Spectrumind logo as well as the Spectrumind text closer to the center. To the right of the navigation bar are the links to the websites pages (Home, History, Resources and Contact). To allow a good user experience of the site, the Spectrumind text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+•	A footer which contains social media icon links to Instagram, LinkedIn and github. There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
 
 ### Future Implementations
 
@@ -132,7 +152,20 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
+Languages Used
+•	HTML and CSS were used to create this website.
+Frameworks, Libraries & Programs Used
+•	Git - For version control.
+•	Github - To save and store the files for the website.
+•	Materialize Framework
+•	Django
+•	Heroku - For deployment
+•	Code anywhere and git pod - For workspaces
+•	Google Fonts - To import the fonts used on the website.
+•	Font Awesome - For the iconography on the website.
+•	Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+•	Favicon.io - Was used to create favicon
+
 
 ### Languages Used
 
