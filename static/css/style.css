@@ -384,6 +384,12 @@ footer {
   padding-bottom: 350px;
 }
 
+.carousel-img {
+  border-radius: 15px;
+  width: 100px;
+  height: 150px;
+}
+
 .resources-read--more {
   color: #b41a02;
 }
