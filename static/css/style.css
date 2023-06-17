@@ -359,9 +359,38 @@ footer {
 }
 
 /* --------------------------------------------------- Resouces page styles */
-.hero-image {
-  width: 400px;
-  height: 400px;
+.resources-h {
+  text-align: center;
+  color: #010b13;
+}
+
+#hugging-herlsef {
+  background-image: url(../media/hugging-herself.jpeg);
+  height: 15rem;
+}
+
+#guy-thumbsup {
+  background-image: url(../media/guy-thumbsup.jpeg);
+  height: 15rem;
+}
+
+.resources-img {
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-top: 70px;
+}
+
+
+.carousel-item {
+ width: 20rem !important;
+ height: 15rem !important;
+}
+
+.carousel-img {
+height: 15rem;
+border-radius: 25px;
 }
 
 #fixed {
@@ -420,3 +449,9 @@ details[open] div{
 .faq-container{
   border-radius: 15px;
 }
+=======
+.carousel {
+    min-height: 30rem;
+}
+
+/* --------------------------------------------------- Contact page styles */
