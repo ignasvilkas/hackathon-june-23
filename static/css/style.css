@@ -380,6 +380,7 @@ footer {
   margin-top: 70px;
 }
 
+
 .carousel-item {
   padding-bottom: 350px;
 }
@@ -392,6 +393,15 @@ footer {
 
 .resources-read--more {
   color: #b41a02;
+=======
+#fixed {
+  margin-top: 100px;
+  color: #010b13;
+  text-align: center;
+}
+
+.sidenav-overlay {
+  display: none !important;
 }
 
 /* --------------------------------------------------- Contact page styles */
