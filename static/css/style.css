@@ -550,7 +550,7 @@ details[open] summary {
   }
 
   .landing_page_container {
-    height: 40vh;
+    height: 55vh;
   }
 
   .landing_page_container p {
@@ -559,7 +559,7 @@ details[open] summary {
   }
 
   .circle_images .circle {
-    margin-top: 40%;
+    margin-top: 20%;
   }
 
   .card-content p {
@@ -677,9 +677,11 @@ details[open] summary {
   }
 }
 
+/* Media query for 76px tablet screen */
+
 @media screen and (max-width: 768px) {
   .landing_page_container {
-    height: 65vh;
+    height: 45vh;
   }
 
   .landing_page_container p {
@@ -699,7 +701,7 @@ details[open] summary {
 
   .circle_1 .responsive-img {
     margin-right: 10%;
-    top: -130px;
+    top: -95px;
   }
 
   .card {
@@ -766,6 +768,10 @@ details[open] summary {
 
 @media screen and (max-width: 425px) {
 
+  .landing_page_container {
+    height: auto;
+  }
+
   .landing_page_container p {
     margin-top: 10%;
   }
@@ -819,27 +825,19 @@ details[open] summary {
 
 @media screen and (max-width: 375px){
   .landing_page_container {
-    width: 68vh;
+    width: auto;
   }
 
   .card {
-    margin-left: 7%;
+    width: auto;
   }
 
   .third_section p {
     margin-left: 8%;
   }
 
-  .help_section img {
-    margin-left: 9%;
-  }
-
-  .text-box {
-    margin-left: 3%;
-  }
-
   .footer {
-    width: 68vh;
+    width: auto;
   }
 }
 
@@ -848,21 +846,12 @@ details[open] summary {
   .card {
     margin-left: 8.6%;
   }
-
-  .container .third_section {
-    margin-left: 11% !important;
-  }
-
   .third_section p {
-    width: fit-content;
-  }
-
-  .help_section img {
-    margin-left: 20%;
+    width: auto;
   }
 
   .text-box {
-    width: 130%;
+    width: auto;
   }
   
   .text-box p {
