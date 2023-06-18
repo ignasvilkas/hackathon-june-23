@@ -580,7 +580,7 @@ details[open] summary {
 }
 
 /* For large screens sizes from 1440px wide and down */
-@media screen and (min-width: 1440px) and (max-width: 1800px) {
+@media screen and (min-width: 1280px) and (max-width: 1800px) {
   .navbar a,
   .navbar .team-name {
     font-size: 25px;
@@ -620,7 +620,7 @@ details[open] summary {
 }
 
 /* Media query for large screens */
-@media (min-width: 881px) and (max-width: 1280px) {
+@media (min-width: 881px) and (max-width: 1024px) {
   .navbar a,
   .navbar .team-name {
     font-size: 20px;
@@ -631,7 +631,7 @@ details[open] summary {
   }
 
   .landing_page_container {
-    height: 70vh;
+    height: 85vh;
   }
 
   .landing_page_container p {
@@ -640,16 +640,16 @@ details[open] summary {
 
   .circle_images .circle {
     position: relative;
-    top: -100px;
+    top: -250px;
   }
 
   .circle_2 .responsive-img {
     margin-top: -10%;
-    margin-left: 230%;
+    margin-left: 200%;
   }
 
   .circle_1 .responsive-img {
-    margin-right: -20%;
+    margin-right: -40%;
   }
 
   .card {
@@ -681,7 +681,7 @@ details[open] summary {
 
 @media screen and (max-width: 768px) {
   .landing_page_container {
-    height: 45vh;
+    height: 60vh;
   }
 
   .landing_page_container p {
