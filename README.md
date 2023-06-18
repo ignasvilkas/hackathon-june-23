@@ -188,20 +188,27 @@ The site is deployed using GitHub Pages. Visit the deployed site [here.](#) To d
 7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
 8. Your URL will be displayed above "Source".
 
-<!--> To DO <--> 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
-<!--> To DO <--> 
+<!--> Completed <--> 
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork the repository:
 
-<!--> To DO <--> 
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [spectrumind-hackathon-2023](https://github.com/Edmir-Demaj/hackathon-june-23).
+3. Click the Fork button in the top right corner.
+
+<!--> Completed <--> 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [spectrumind-hackathon-2023](https://github.com/Edmir-Demaj/hackathon-june-23).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 <!--> To DO <--> 
 ## Testing
