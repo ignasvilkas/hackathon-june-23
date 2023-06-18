@@ -150,51 +150,43 @@ Have you chosen fonts that are dyslexia/accessible friendly?
 
 Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
 
-<!--> Completed <--> 
 ## Technologies Used
-
-Languages Used
-•	HTML, CSS, Python, Dockerfile, JavaScript & Procfile were used to create this website.
-Frameworks, Libraries & Programs Used
-•	Git - For version control.
-•	Github - To save and store the files for the website.
-•	Materialize Framework
-•	Django
-•	Heroku - For deployment
-•	Code anywhere, git pod and VS Code - For workspaces
-•	Google Fonts - To import the fonts used on the website.
-•	Font Awesome - For the iconography on the website.
-•	Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-•	Favicon.io - Was used to create favicon
 
 <!--> Completed <--> 
 ### Languages Used
 
-HTML, CSS, Python, Dockerfile, JavaScript & Procfile
+HTML, CSS, Python, Dockerfile, JavaScript & Procfile.
 
-<!--> To DO <--> 
+<!--> Completed <--> 
 ### Frameworks, Libraries & Programs Used
 
 •	Git - For version control.
 •	Github - To save and store the files for the website.
-•	Materialize Framework
-•	Django
-•	Heroku - For deployment
-•	Code anywhere, git pod and VS Code - For workspaces
+•	Materialize Framework.
+•	Django.
+•	Heroku - For deployment.
+•	Code anywhere, git pod and VS Code - For workspaces.
 •	Google Fonts - To import the fonts used on the website.
 •	Font Awesome - For the iconography on the website.
 •	Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-•	Favicon.io - Was used to create favicon
+•	Favicon.io - Was used to create favicon.
+•	Figma - Was used for wireframes and mockups.
 
-<!--> To DO <--> 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
-<!--> To DO <--> 
+<!--> Need to add deployment link <--> 
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+The site is deployed using GitHub Pages. Visit the deployed site [here.](#) To deploy using GitHub pages:
+
+1. Login or Sign Up to GitHub.
+2. Open the project repository.
+3. Click on "Settings" on the navigation bar under the repository title.
+4. Click on "Pages" in the left hand navigation panel.
+5. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
+8. Your URL will be displayed above "Source".
 
 <!--> To DO <--> 
 ### Local Development
