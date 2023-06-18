@@ -89,7 +89,7 @@ Amatic and Josefin fonts are the main fonts used throughout the whole website wi
 <!--> Completed <--> 
 ### Imagery
 
-All images used on this project are free copyrights. They are used within the site has been chosen to showcase the LGBTQ+ community. The images are also used to add visual interest to the website and to help break up different sections of the page. Imagery is relevant to the content and mission of the website and is also appropriately sized and optimized for web use to ensure fast page loading times. 
+The colors were chosen to be bright and representative of the rainbow colors of the LGBTQ+ community but paler to incorporate proffesionalism in to the scheme. The pictures were chosen from the website freepik.com and found through searching by words of acceptance, support, understanding, love, thinking, and various other LGBTQ+ related phrases. The images chosen also kept close to the color scheme and draws attention to the section they are attached to.
 <!--> To DO <--> 
 ### Wireframes
 
