@@ -132,7 +132,7 @@ All Pages on the website have:
 •	A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an image of the Spectrumind logo as well as the Spectrumind text closer to the center. To the right of the navigation bar are the links to the websites pages (Home, History, Resources and Contact). To allow a good user experience of the site, the Spectrumind text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
 •	A footer which contains social media icon links to Instagram, LinkedIn and github. There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
 
-<!--> To Discuss <--> 
+<!--> Completed <--> 
 ### Future Implementations
 
 •	To add a calender which shows all LGBTQ+ promotional events in different areas around the world.
@@ -140,18 +140,12 @@ All Pages on the website have:
 •	To create a sign up page where people could become members of Spectrumind
 •	To create a newsletter option for members
 
-<!--> To DO <--> 
+<!--> Completed<--> 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
-
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+•	The website has been made accesible for people with impared vision.
+•	The fonts were chose to be dyslexia/accessible friendly.
+•	The website meets minimum contrast requirements.
 
 ## Technologies Used
 
@@ -180,16 +174,35 @@ HTML, CSS, Python, Dockerfile, JavaScript & Procfile.
 <!--> Need to add deployment link <--> 
 ### Deployment
 
-The site is deployed using GitHub Pages. Visit the deployed site [here.](#) To deploy using GitHub pages:
+- This site was developed in IDE (Gitpod)[https://www.gitpod.io/] and deployed to (Heroku)(https://www.heroku.com/)]
+- GitHub is used for version control and hosting platform for the site.
+- It was built using the Django framework.
+- The site was developed by previewing the site in the browser through Port 8000 in Gitpod by running the command `python3 manage.py runserver` in the terminal.
 
-1. Login or Sign Up to GitHub.
-2. Open the project repository.
-3. Click on "Settings" on the navigation bar under the repository title.
-4. Click on "Pages" in the left hand navigation panel.
-5. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
-6. Choose which folder to deploy from, usually "/root".
-7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
-8. Your URL will be displayed above "Source".
+Changes and entries to the workspace were then committed and pushed to this Github repository.
+
+### Setting up the project in Gitpod workspace:
+1. Install django by running the following command `pip3 install Django`
+2. Install gunicorn for running the deployed website `pip3 install gunicorn`
+3. To install postgres to support the database `pip3 install dj_database_url pyscopg2`
+4. Install any other required libraries by running similar commands and add them to a requirements.txt file so that Heroku will install them at deployment. This is done by running `pip3 freeze --local > requirements` in the terminal and can be run again when necessary to add further libraries.
+5. Create your Django project by entering the following command: `django-admin startproject < YOUR PROJECT NAME >`
+6. To create a django app, run `python manage.py startapp < YOUR APP NAME >`
+7. Add the name of the newly created app to "INSTALLED_APPS" in settings.py.
+8. Development of apps can begin from here.
+### Deploying to Heroku
+1. Once logged into Heroku, choose the option 'Create App'.
+2. Attach the database in the Resources tab in Add-ons. Search for 'Heroku Postgres' and add.
+3. In your workspace, create an env.py file which will store environment variable and add it to .gitignore so as not to expose any sensitive information publicly in Github.
+4. Store your 'SECRET_KEY' and 'DATABASE_URL' here and import into settings.py
+5. In Heroku, under settings, choose 'Reveal Config Vars and add your 'SECRET_KEY' and 'DATABASE_URL'.
+6. Migrate to the database in Gitpod using `python manage.py makemigrations` followed by `python manage.py migrate`
+7. Add your Heroku app URL to "ALLOWED_HOSTS" in settings.py.
+8. Create a Procfile in the top level of the directory and add `web: gunicorn projectname.wsgi` so Heroku knows how to run the project.
+### Initial deployment:
+1. Push any changes to Github after connecting your Heroku app to your repository.
+2. Add DISABLE_COLLECTSTATIC with a value of 1 to Heroku config vars.
+3. Select Github in Deployment method and choose 'Deploy branch' under Manual Deploy, ensuring your main branch is chosen.
 
 ### Local Development
 
