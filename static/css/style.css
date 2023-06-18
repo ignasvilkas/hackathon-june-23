@@ -471,6 +471,29 @@ div.nav-wrapper.red.accent-2>* {
   font-weight: 900;
 }
 
+input[type=submit]{
+  background-color: #ff5252;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: #ff8a7f;
+}
+
+.contact-us-image{
+  margin: 5rem 0;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.custom-section-bottom{
+  margin-bottom: 5rem;
+}
+
 /* FAQ styling */
 summary {
   padding: 0.5rem;

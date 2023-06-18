@@ -35,10 +35,11 @@ Welcome to Spectrumind, a transformative online platform dedicated to promoting 
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
+  * [Manual Testing](#manual-testing)
+  * [Automated Testing](#automated-testing)
 
 * [Credits](#credits)
   * [Code Used](#code-used)
-  * [Content](#content)
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
@@ -210,38 +211,72 @@ To clone the repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-<!--> To DO <--> 
+
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+A number of manual tests were carried out on this project by all members:
+ 
+### Manual Testing
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+**`Home, History, Resources, Contact Page`** 
 
-<!--> To DO <--> 
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Navbar links | Redirects the user to other pages on the site | Clicked on the link | The correct page is open and displayed | ✅ |
+| External links | Redirects the user to external third part site | Clicked on the link | Successfully directed the user to the correct external site | ✅ |
+| Contact form | Show validation message if user input wrong or empy data | Filled the form with wrong characters, empty strings and ints | Received correct required messages | ✅ |
+| Contact form | Receive user input data in the database | Filled the form and clicked submit | Received the input data in our email | ✅ |
+| All buttons - hover effect | When hovered over, all buttons should change color or have zoom animation to indicate that the button is hovered | Hovered over each button on the webpage | Each button displayed the correct style/animation when hovered over | ✅ |
+
+**`Nav Section`**
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Navbar links | Redirects the user to other pages on the site | Clicked on the link | The correct page is open and displayed | ✅ |
+
+
+**`Footer Section`**
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Navbar links | Redirects the user to other pages on the site | Clicked on the link | The correct page is open and displayed | ✅ |
+
+
+### Automated Testing
+**`Lighthouse`** 
+
+Website has been tested with google lighthouse and the result is as below.
+
+  ![Lighthouse Validation](docs/validation/w3c/picture-goes-here.jpg)
+
+**`JSHint`** 
+
+  ![JSHint Validation](static/media/readme-jshint.jpg)
+
+&nbsp;
+
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
+- All images were taken using 
+- Inspiration was taken from
+- API for submit form was taken from
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
-
-<!--> To DO <--> 
 ### Code Used
 
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
-<!--> To DO <--> 
-### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
-
-<!--> To DO <-->
 ###  Media
- 
+
 If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
   
-  <!--> To DO <--> 
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+- Thank you to all the team member for the hard work and cooperation.
+  - **Edmir Demaj** - [GitHub](https://github.com/Edmir-Demaj), [LinkedIn](https://www.linkedin.com/in/edmir-demaj-42a501196)
+  - **Jody Murray** - [GitHub](https://github.com/JodyMurray), [LinkedIn](https://www.linkedin.com/in/jody-murray-4b6818234/)
+  - **Ignas Pilybas** - [GitHub](https://github.com/ignasvilkas), [LinkedIn](https://www.linkedin.com/in/ignaspilybas/)
+  - **Kim Bergstrom** - [GitHub](https://github.com/KimBergstroem), [LinkedIn](https://www.linkedin.com/in/kim-bergstrom-47704b5b/)
+  - **Mark Young** - [GitHub](https://github.com/Markyjay), [LinkedIn](https://www.linkedin.com/in/mark-young-4a90ab15/)
+
+This section will call out each team member for a particularly valuable contribution to the project
