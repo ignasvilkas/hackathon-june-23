@@ -88,7 +88,7 @@ Amatic and Josefin fonts are the main fonts used throughout the whole website wi
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+All images used on this project are free copyrights. They are used within the site has been chosen to showcase the LGBTQ+ community. The images are also used to add visual interest to the website and to help break up different sections of the page. Imagery is relevant to the content and mission of the website and is also appropriately sized and optimized for web use to ensure fast page loading times. 
 
 ### Wireframes
 
