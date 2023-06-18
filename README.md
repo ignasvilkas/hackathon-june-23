@@ -75,20 +75,16 @@ Frequent Visitor Goals
 
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
-
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
-
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+We wanted to choose colours that reflected the environment, so we have chosen a variety of blues, purples and pinks for our site.
+![Colour Palette](https://coolors.co/ff5252-e1bee7-114069-c2dfe8-bc5bbc)
 
 ### Typography
 
 Google Fonts was used for the following fonts:
-•	Amatic SC is a simple but effective hand drawn webfont. It  is used for the Headings and some body text on the site.
-•	Josefin Sans The idea of this typeface is to be geometric, elegant, with a vintage feeling, for use at larger sizes. It is inspired by geometric sans serif designs is used for the paragraphs on the site. It is a sans-serif font.
-•	Cursive and sans serif are used as back ups.
+
+Amatic and Josefin fonts are the main fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
 ### Imagery
 
