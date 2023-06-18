@@ -405,3 +405,298 @@ footer {
 }
 
 /* --------------------------------------------------- Contact page styles */
+.contact-us-paragraph {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.contact-us-bold {
+  font-weight: 900;
+}
+
+/* FAQ styling */
+summary {
+  padding: 0.5rem;
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #000000;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+}
+
+.faq-container {
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 25rem;
+}
+
+.faq-question {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-answer {
+  margin-left: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #030000;
+  font-weight: 600;
+}
+
+
+
+/* --------------------------------------------------- Contact page styles */
+
+/* For large screens sizes from 2560px wide and down */
+@media screen and (max-width: 2560px) {
+
+  .navbar a,
+  .navbar .team-name {
+    font-size: 40px;
+  }
+
+  .logo {
+    width: 5%;
+  }
+
+  .landing_page_container {
+    height: 40vh;
+  }
+
+  .landing_page_container p {
+    width: 90%;
+    font-size: 110px;
+  }
+
+  .circle_images .circle {
+    margin-top: 40%;
+  }
+
+  .card-content p {
+    font-size: 40px;
+  }
+
+  .history_button a {
+    font-size: 40px;
+  }
+
+  .text-box p {
+    font-size: 40px;
+  }
+
+  .help_section img {
+    margin-top: 35%;
+  }
+}
+
+/* For large screens sizes from 1440px wide and down */
+@media screen and (min-width: 1440px) and (max-width: 1800px) {
+
+  .navbar a,
+  .navbar .team-name {
+    font-size: 25px;
+  }
+
+  .logo {
+    width: 6%;
+  }
+
+  .landing_page_container {
+    height: 70vh;
+  }
+
+  .landing_page_container p {
+    font-size: 80px;
+  }
+
+  .circle_images .circle {
+    margin-top: unset;
+  }
+
+  .card-content p {
+    font-size: 25px;
+  }
+
+  .history_button a {
+    font-size: 30px;
+  }
+
+  .text-box p {
+    font-size: 30px;
+  }
+
+  .help_section img {
+    margin-top: 60%;
+  }
+}
+
+/* Media query for large screens */
+@media (min-width: 881px) and (max-width: 1024px) {
+
+  .navbar a,
+  .navbar .team-name {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 7%;
+  }
+
+  .landing_page_container {
+    height: 70vh;
+  }
+
+  .landing_page_container p {
+    font-size: 80px;
+  }
+
+  .circle_images .circle {
+    position: relative;
+    top: -300px;
+  }
+
+  .circle_2 .responsive-img {
+    margin-top: 20%;
+    margin-left: 190%;
+  }
+
+  .circle_1 .responsive-img {
+    margin-right: -20%;
+  }
+
+  .card {
+    margin-top: 15%;
+  }
+
+  .card-content p {
+    font-size: 20px;
+  }
+
+  .history_button a {
+    font-size: 30px;
+  }
+
+  .text-box p {
+    font-size: 20px;
+  }
+
+  .resources_button a {
+    font-size: 25px;
+  }
+
+  .help_section img {
+    margin-top: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing_page_container {
+    height: 65vh;
+  }
+
+  .landing_page_container p {
+    font-size: 50px;
+  }
+
+  .circle_images .circle {
+    position: relative;
+    top: -300px;
+    width: 70%;
+  }
+
+  .circle_2 .responsive-img {
+    margin-top: 50%;
+    margin-left: 140%;
+  }
+
+  .circle_1 .responsive-img {
+    margin-right: 10%;
+    top: -130px;
+  }
+
+  .card {
+    margin-top: 15%;
+    width: 60%;
+  }
+
+  .card h1 {
+    margin-left: -25px;
+    position: relative;
+    right: 13%;
+    margin-top: 50%;
+
+  }
+
+  .card-content p {
+    font-size: 20px;
+  }
+
+  .history_button a {
+    font-size: 30px;
+  }
+
+  .text-box p {
+    font-size: 15px;
+    margin-left: 19px;
+  }
+
+  .resources_button a {
+    font-size: 20px;
+  }
+
+  .help_section img {
+    margin-top: 60%;
+  }
+
+  .team-member {
+    flex-basis: 100%;
+  }
+
+  .faq-container {
+    max-width: 400px;
+  }
+
+  .faq-answer {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    height: 40%;
+    margin-top: -20%;
+  }
+
+  .card h1 {
+    font-size: 45px;
+    margin-left: 70px;
+  }
+
+  .card-content p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .third_section h1 {
+    font-size: 30px;
+  }
+
+  .third_section p {
+    font-size: 30px;
+    width: 90%;
+  }
+
+  .faq-container {
+    max-width: 300px;
+  }
+
+  .faq-answer {
+    max-width: 300px;
+  }
+}
