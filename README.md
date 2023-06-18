@@ -154,7 +154,7 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 ## Technologies Used
 
 Languages Used
-•	HTML and CSS were used to create this website.
+•	HTML, CSS, Python, Dockerfile, JavaScript & Procfile were used to create this website.
 Frameworks, Libraries & Programs Used
 •	Git - For version control.
 •	Github - To save and store the files for the website.
@@ -167,19 +167,24 @@ Frameworks, Libraries & Programs Used
 •	Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 •	Favicon.io - Was used to create favicon
 
-<!--> To DO <--> 
+<!--> Completed <--> 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML, CSS, Python, Dockerfile, JavaScript & Procfile
 
 <!--> To DO <--> 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
-
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
-
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+•	Git - For version control.
+•	Github - To save and store the files for the website.
+•	Materialize Framework
+•	Django
+•	Heroku - For deployment
+•	Code anywhere, git pod and VS Code - For workspaces
+•	Google Fonts - To import the fonts used on the website.
+•	Font Awesome - For the iconography on the website.
+•	Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+•	Favicon.io - Was used to create favicon
 
 <!--> To DO <--> 
 ## Deployment & Local Development
