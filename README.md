@@ -84,7 +84,7 @@ We wanted to choose colours that reflected the environment, so we have chosen a 
 
 Google Fonts was used for the following fonts:
 
-Amatic and Josefin fonts are the main fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+Amatic and Josefin fonts are the main fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Amatic and Josefin are clean fonts used frequently in programming, so they are both attractive and appropriate.
 
 ### Imagery
 
