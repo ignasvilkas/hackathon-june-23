@@ -15,6 +15,7 @@ $(document).ready(function() {
     if (!$(event.target).closest('a').length) {
       sideNavInstance.sidenav('close');
     }
+  });
   // Add event listener to close the sidenav on hamburger button click
   $('.sidenav-trigger').on('click', function() {
     sideNavInstance.sidenav('toggle');

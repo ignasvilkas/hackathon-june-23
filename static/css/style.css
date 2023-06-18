@@ -63,7 +63,7 @@ nav {
   height: 5rem;
 }
 
-div.nav-wrapper.red.accent-2>* {
+div.nav-wrapper.red.accent-2 > * {
   padding-top: 1rem;
 }
 
@@ -152,18 +152,23 @@ div.nav-wrapper.red.accent-2>* {
 .button-89 {
   --b: 3px;
   /* border thickness */
-  --s: .45em;
+  --s: 0.45em;
   /* size of the corner */
-  --color: #373B44;
+  --color: #373b44;
 
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
   color: var(--color);
   --_p: var(--s);
-  background:
-    conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .3s linear, color 0s, background-color 0s;
+  background: conic-gradient(
+      from 90deg at var(--b) var(--b),
+      #0000 90deg,
+      var(--color) 0
+    )
+    var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
+    calc(100% - var(--b) - 2 * var(--_p));
+  transition: 0.3s linear, color 0s, background-color 0s;
   outline: var(--b) solid #0000;
-  outline-offset: .6em;
+  outline-offset: 0.6em;
   font-size: 16px;
 
   border: 0;
@@ -177,14 +182,13 @@ div.nav-wrapper.red.accent-2>* {
 .button-89:focus-visible {
   --_p: 0px;
   outline-color: var(--color);
-  outline-offset: .05em;
+  outline-offset: 0.05em;
 }
 
 .button-89:active {
   background: var(--color);
   color: #fff;
 }
-
 
 .card p {
   font-family: "Josefin Sans", sans-serif;
@@ -401,13 +405,15 @@ div.nav-wrapper.red.accent-2>* {
   margin: 1rem 0;
   height: 30px;
   border: none;
-  background: linear-gradient(to right,
-      #ff0018,
-      #ffa52c,
-      #ffff41,
-      #008018,
-      #0000f9,
-      #86007d);
+  background: linear-gradient(
+    to right,
+    #ff0018,
+    #ffa52c,
+    #ffff41,
+    #008018,
+    #0000f9,
+    #86007d
+  );
 }
 
 .rainbow {
@@ -471,7 +477,7 @@ div.nav-wrapper.red.accent-2>* {
   font-weight: 900;
 }
 
-input[type=submit]{
+input[type="submit"] {
   background-color: #ff5252;
   border: none;
   color: white;
@@ -480,17 +486,17 @@ input[type=submit]{
   border-radius: 8px;
   cursor: pointer;
 }
-input[type=submit]:hover{
+input[type="submit"]:hover {
   background-color: #ff8a7f;
 }
 
-.contact-us-image{
+.contact-us-image {
   margin: 5rem 0;
   width: 100%;
   border-radius: 25px;
 }
 
-.custom-section-bottom{
+.custom-section-bottom {
   margin-bottom: 5rem;
 }
 
@@ -530,13 +536,10 @@ details[open] summary {
   font-weight: 600;
 }
 
-
-
 /* --------------------------------------------------- Contact page styles */
 
 /* For large screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px) {
-
   .navbar a,
   .navbar .team-name {
     font-size: 40px;
@@ -578,7 +581,6 @@ details[open] summary {
 
 /* For large screens sizes from 1440px wide and down */
 @media screen and (min-width: 1440px) and (max-width: 1800px) {
-
   .navbar a,
   .navbar .team-name {
     font-size: 25px;
@@ -619,7 +621,6 @@ details[open] summary {
 
 /* Media query for large screens */
 @media (min-width: 881px) and (max-width: 1024px) {
-
   .navbar a,
   .navbar .team-name {
     font-size: 20px;
@@ -702,16 +703,19 @@ details[open] summary {
   }
 
   .card {
-    margin-top: 15%;
+    margin-top: 29%;
     width: 60%;
+    position: relative;
+    top: -90px;
+    right: 20px;
   }
 
   .card h1 {
     margin-left: -25px;
     position: relative;
     right: 13%;
+    top: 10%;
     margin-top: 50%;
-
   }
 
   .card-content p {
@@ -720,6 +724,18 @@ details[open] summary {
 
   .history_button a {
     font-size: 30px;
+  }
+
+  .third_section h1 {
+    font-size: 50px;
+  }
+
+  .third_section p {
+    font-size: 30px;
+  }
+
+  .text-box {
+    height: fit-content;
   }
 
   .text-box p {
@@ -749,10 +765,17 @@ details[open] summary {
 }
 
 @media screen and (max-width: 425px) {
+
+  .landing_page_container p {
+    margin-top: 10%;
+  }
   .card {
     height: 40%;
-    margin-top: -20%;
-  }
+    margin-top: 0;
+    width: 390px;
+    margin-left: 9%;
+    margin-top: -40px;
+}
 
   .card h1 {
     font-size: 45px;
@@ -762,15 +785,27 @@ details[open] summary {
   .card-content p {
     text-align: center;
     font-size: 20px;
+    width: auto;
   }
 
   .third_section h1 {
     font-size: 30px;
+    margin-top: -2%;
   }
 
   .third_section p {
     font-size: 30px;
     width: 90%;
+    margin-left: 5%;
+    
+  }
+
+  .help_section img {
+    margin-top: 30px;
+  }
+
+  .text-box {
+    margin-left: 1%;
   }
 
   .faq-container {
@@ -779,5 +814,62 @@ details[open] summary {
 
   .faq-answer {
     max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .landing_page_container {
+    width: 68vh;
+  }
+
+  .card {
+    margin-left: 7%;
+  }
+
+  .third_section p {
+    margin-left: 8%;
+  }
+
+  .help_section img {
+    margin-left: 9%;
+  }
+
+  .text-box {
+    margin-left: 3%;
+  }
+
+  .footer {
+    width: 68vh;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .card {
+    margin-left: 8.6%;
+  }
+
+  .container .third_section {
+    margin-left: 11% !important;
+  }
+
+  .third_section p {
+    width: fit-content;
+  }
+
+  .help_section img {
+    margin-left: 20%;
+  }
+
+  .text-box {
+    width: 130%;
+  }
+  
+  .text-box p {
+    font-size: larger;
+  }
+
+  .footer {
+    width: fit-content;
   }
 }
