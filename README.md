@@ -90,7 +90,7 @@ Amatic and Josefin fonts are the main fonts used throughout the whole website wi
 ### Imagery
 
 The colors were chosen to be bright and representative of the rainbow colors of the LGBTQ+ community but paler to incorporate proffesionalism in to the scheme. The pictures were chosen from the website freepik.com and found through searching by words of acceptance, support, understanding, love, thinking, and various other LGBTQ+ related phrases. The images chosen also kept close to the color scheme and draws attention to the section they are attached to.
-<!--> To DO <--> 
+<!--> To DO - need Edmir<--> 
 ### Wireframes
 
 Add the images or links for your wireframes here.
@@ -132,10 +132,13 @@ All Pages on the website have:
 •	A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an image of the Spectrumind logo as well as the Spectrumind text closer to the center. To the right of the navigation bar are the links to the websites pages (Home, History, Resources and Contact). To allow a good user experience of the site, the Spectrumind text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
 •	A footer which contains social media icon links to Instagram, LinkedIn and github. There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
 
-<!--> To DO <--> 
+<!--> To Discuss <--> 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+•	To add a calender which shows all LGBTQ+ promotional events in different areas around the world.
+•	To create an online petition section where people can sign their support
+•	To create a sign up page where people could become members of Spectrumind
+•	To create a newsletter option for members
 
 <!--> To DO <--> 
 ### Accessibility
